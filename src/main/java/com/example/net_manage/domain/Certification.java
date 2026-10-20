@@ -1,8 +1,6 @@
 package com.example.net_manage.domain;
 
-import java.sql.Date;
-import java.util.ArrayList;
-import java.util.List;
+
 import java.util.UUID;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -29,7 +27,7 @@ public class Certification {
     public UUID getId() {
         return id;
     }
-    
+
     public void setId(UUID id) {
         this.id = id;
 
