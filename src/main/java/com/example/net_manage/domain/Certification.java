@@ -10,8 +10,9 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
+import java.util.List;
 
 @Entity
 @Table(name = "certification")
@@ -23,6 +24,11 @@ public class Certification {
 
     @Column(name = "name", nullable = false)
     private String name;
+
+    @JsonIgnore
+    @ManyToMany(mappedBy = "certifications")
+    private List<NetworkEngineer> networkEngineers;
+
 
     public UUID getId() {
         return id;
