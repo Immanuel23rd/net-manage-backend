@@ -9,14 +9,12 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 public interface CertificationRepository extends JpaRepository<Certification, UUID> {
     
     List<Certification> findByEngineerId(UUID engineerId);
-    
-    Optional<Certification> findByFirstName(String firstName);
 
-    Optional<Certification> findByLastName(String lastName);
 
     @Query("SELECT c FROM Certification c WHERE c.engineer.id = :engineerId")
     Page<Certification> findByEngineerId(@Param("engineerId") UUID engineerId, org.springframework.data.domain.Pageable pageable);
@@ -26,5 +24,10 @@ public interface CertificationRepository extends JpaRepository<Certification, UU
 
     @Query ("SELECT c FROM Certification c WHERE c.name LIKE %:name%")
     List<Certification> findByNameContaining(@Param("name") String name);
-    
+
+    @Query ("SELECT c FROM Certification c WHERE c.name LIKE %:name%")
+    Page<Certification> findByNameContaining(@Param("name") String name, Pageable pageable);
+
+    @Query ("SELECT c FROM Certification c WHERE c.name = :name")
+    Page<Certification> findAllByName(@Param("name") String name, Pageable pageable);
 }
