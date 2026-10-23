@@ -12,12 +12,17 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 public interface CertificationRepository extends JpaRepository<Certification, UUID> {
-    
-    List<Certification> findByEngineerId(UUID engineerId);
 
+    boolean existsByName(String name);
 
-    @Query("SELECT c FROM Certification c WHERE c.engineer.id = :engineerId")
-    Page<Certification> findByEngineerId(@Param("engineerId") UUID engineerId, org.springframework.data.domain.Pageable pageable);
+    boolean existsByNameAndNetworkEngineerId(String name, UUID networkEngineerId);
+
+    List<Certification> findByNetworkEngineerId(UUID networkEngineerId);
+
+    List<Certification> findByNetworkEngineerIdAndCertificationName(UUID networkEngineerId, String certificationName);
+
+    @Query("SELECT c FROM Certification c WHERE c.networkEngineer.id = :networkEngineerId")
+    Page<Certification> findByNetworkEngineerId(@Param("networkEngineerId") UUID networkEngineerId, org.springframework.data.domain.Pageable pageable);
 
     @Query ("SELECT c FROM Certification c WHERE c.name = :name")
     Optional<Certification> findByName(@Param("name") String name);

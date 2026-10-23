@@ -27,4 +27,34 @@ public class CertificationService {
         certificationRepository.deleteById(id);
     }
 
+    @Transactional(readOnly = true)
+    public Optional<Certification> findById(UUID id) {
+        return certificationRepository.findById(id);
+    }
+
+    @Transactional(readOnly = true)
+    public List<Certification> findAll() {
+        return certificationRepository.findAll();
+    }
+
+    @Transactional(readOnly = true)
+    public Page<Certification> findAll(Pageable pageable) {
+        return certificationRepository.findAll(pageable);
+    }
+
+    @Transactional(readOnly = true)
+    public List<Certification> findAll(Sort sort) {
+        return certificationRepository.findAll(sort);
+    }
+
+    @Transactional(readOnly = true)
+    public List<Certification> findByNetworkEngineerId(UUID networkEngineerId) {
+        return certificationRepository.findByNetworkEngineerId(networkEngineerId);
+    }
+
+    @Transactional(readOnly = true)
+    public List<Certification> findByNetworkEngineerIdAndCertificationName(UUID networkEngineerId, String certificationName) {
+        return certificationRepository.findByNetworkEngineerIdAndCertificationName(networkEngineerId, certificationName);
+    }
+
 }
