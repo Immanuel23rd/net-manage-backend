@@ -1,6 +1,7 @@
 package com.example.net_manage.domain;
 
 
+import java.util.List;
 import java.util.UUID;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -12,7 +13,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
-import java.util.List;
 
 @Entity
 @Table(name = "certification")
@@ -34,13 +34,13 @@ public class Certification {
         return id;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void setId(UUID id) {
         this.id = id;
 
-    }
-
-    public String getName() {
-        return name;
     }
 
     public void setName(String name) {

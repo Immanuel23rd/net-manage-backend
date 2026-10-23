@@ -29,40 +29,40 @@ public class NetworkDevice {
     @Column (name = "serialNumber", nullable = false)
     private String serialNumber;
 
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
-    }
-
     public String getHostname() {
         return hostname;
     }
 
-    public void setHostname(String hostname) {
-        this.hostname = hostname;
+    public UUID getId() {
+        return id;
     }
 
     public String getIpAddress() {
         return ipAddress;
     }
 
-    public void setIpAddress(String ipAddress) {
-        this.ipAddress = ipAddress;
-    }
-
     public String getModel() {
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
-
     public String getSerialNumber() {
         return serialNumber;
+    }
+
+    public void setHostname(String hostname) {
+        this.hostname = hostname;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public void setIpAddress(String ipAddress) {
+        this.ipAddress = ipAddress;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
     }
 
     public void setSerialNumber(String serialNumber) {

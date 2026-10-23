@@ -3,8 +3,6 @@ package com.example.net_manage.domain;
 
 import java.util.UUID;
 
-
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -30,21 +28,21 @@ public class Site {
         return id;
     }
     
+    public String getName() {
+        return name;
+    }
+
+    public int getSiteNumber() {
+        return siteNumber;
+    }
+
     public void setId(UUID id) {
         this.id = id;
 
     }
 
-    public String getName() {
-        return name;
-    }
-
     public void setName(String name) {
         this.name = name;
-    }
-
-    public int getSiteNumber() {
-        return siteNumber;
     }
 
     public void setSiteNumber(int siteNumber) {

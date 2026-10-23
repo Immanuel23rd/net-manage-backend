@@ -8,10 +8,10 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToMany;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
@@ -39,48 +39,48 @@ public class NetworkEngineer {
     @JoinColumn(name = "site_id", nullable = true)
     private Site site;
 
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public List<Certification> getCertifications() {
+        return certifications;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public List<Certification> getCertifications() {
-        return certifications;
+    public UUID getId() {
+        return id;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public Site getSite() {
+        return site;
     }
 
     public void setCertifications(List<Certification> certifications) {
         this.certifications = certifications;
     }
 
-    public Site getSite() {
-        return site;
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public void setSite(Site site) {

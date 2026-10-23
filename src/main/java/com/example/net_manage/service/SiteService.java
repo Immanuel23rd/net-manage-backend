@@ -24,6 +24,16 @@ public class SiteService {
         this.siteRepository = siteRepository;
     }
 
+    @Transactional
+    public Site createSite(Site site) {
+        return siteRepository.save(site);
+    }
+
+    @Transactional
+    public void deleteSite(Long id) {
+        siteRepository.deleteById(id);
+    }
+
     @Transactional(readOnly = true)
     public List<Site> getAllSites() {
         return siteRepository.findAll();
@@ -34,19 +44,9 @@ public class SiteService {
         return siteRepository.findById(id);
     }
 
-    @Transactional
-    public Site createSite(Site site) {
-        return siteRepository.save(site);
-    }
-
-    @Transactional
-    public Site updateSite(Site site) {
-        return siteRepository.save(site);
-    }
-
-    @Transactional
-    public void deleteSite(Long id) {
-        siteRepository.deleteById(id);
+    public Page<Site> getSites(int page, int size, String sortBy) {
+        Pageable pageable = PageRequest.of(page, size, Sort.by(sortBy));
+        return siteRepository.findAll(pageable);
     }
 
     @Transactional(readOnly = true)
@@ -54,9 +54,9 @@ public class SiteService {
         return siteRepository.findAll(pageable);
     }
 
-    public Page<Site> getSites(int page, int size, String sortBy) {
-        Pageable pageable = PageRequest.of(page, size, Sort.by(sortBy));
-        return siteRepository.findAll(pageable);
+    @Transactional
+    public Site updateSite(Site site) {
+        return siteRepository.save(site);
     }
 
 
