@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-import org.springframework.data.domain.Page;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -13,9 +12,7 @@ import com.example.net_manage.domain.MaintenanceTicket;
 
 public interface MaintenanceTicketRepository extends JpaRepository<MaintenanceTicket, UUID> {
     
-    @Query("SELECT m FROM MaintenanceTicket m WHERE m.engineer.id = :engineerId")
-    Page<MaintenanceTicket> findByEngineerId(@Param("engineerId") UUID engineerId, org.springframework.data.domain.Pageable pageable);
-    
+   
     List<MaintenanceTicket> findByLocalDate(String localDate);
 
     @Query ("SELECT m FROM MaintenanceTicket m WHERE m.localDate = :localDate")
