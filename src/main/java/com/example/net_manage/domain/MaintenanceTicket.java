@@ -31,7 +31,7 @@ public class MaintenanceTicket {
     @Column (name ="issue")
     private String issue;
 
-@Enumerated(EnumType.STRING)
+    @Enumerated(EnumType.STRING)
     private TicketStatus status;
 
     @ManyToOne

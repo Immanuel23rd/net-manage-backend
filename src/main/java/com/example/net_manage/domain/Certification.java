@@ -29,7 +29,6 @@ public class Certification {
     @ManyToMany(mappedBy = "certifications")
     private List<NetworkEngineer> networkEngineers;
 
-
     public UUID getId() {
         return id;
     }
@@ -45,5 +44,13 @@ public class Certification {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+        public List<NetworkEngineer> getNetworkEngineers() {
+        return networkEngineers;
+    }
+
+    public void setNetworkEngineers(List<NetworkEngineer> networkEngineers) {
+        this.networkEngineers = networkEngineers;
     }
 }

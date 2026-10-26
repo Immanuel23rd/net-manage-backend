@@ -17,16 +17,16 @@ public class NetworkDevice {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column(name = "hostname", nullable = false)
+    @Column(name = "hostname")
     private String hostname;
 
-    @Column(name = "ipAddress", nullable = false)
+    @Column(name = "ipAddress")
     private String ipAddress;
 
-    @Column (name = "model", nullable = false)
+    @Column (name = "model")
     private String model;
     
-    @Column (name = "serialNumber", nullable = false)
+    @Column (name = "serialNumber", unique = true)
     private String serialNumber;
 
     public String getHostname() {
