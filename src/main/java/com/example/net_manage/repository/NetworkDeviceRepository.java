@@ -14,16 +14,13 @@ import com.example.net_manage.domain.NetworkDevice;
 public interface NetworkDeviceRepository extends JpaRepository<NetworkDevice, UUID> {
     
     
-    Optional<NetworkDevice> findByHostname(String hostname);
 
-    Optional<NetworkDevice> findByIpAddress(String ipAddress);
-
-    List<NetworkDevice> findByModel(String model);
-
-    @Query ("SELECT n FROM NetworkDevice n WHERE n.name LIKE %:name%")
-    List<NetworkDevice> findByNameContaining(@Param("name") String name);
-
+    List<NetworkDevice> findByModelIgnoreCaseOrderByHostnameAsc(String model);
 
     Optional<NetworkDevice> findBySerialNumber(String serialNumber);
-    
+
+
+    @Query("SELECT DISTINCT t.networkDevice FROM MaintenanceTicket t " +
+           "WHERE t.networkEngineer.id = :engineerId")
+    List<NetworkDevice> findByEngineer(@Param("engineerId") UUID engineerId); 
 }
