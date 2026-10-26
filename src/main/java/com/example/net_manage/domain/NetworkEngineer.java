@@ -1,5 +1,6 @@
 package com.example.net_manage.domain;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -22,18 +23,20 @@ public class NetworkEngineer {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column(name = "firstName", nullable = false)
+    @Column(name = "firstName")
     private String firstName;
 
-    @Column(name = "lastName", nullable = false)
+    @Column(name = "lastName")
     private String lastName;
 
-    @Column(name = "email", nullable = false)
+    @Column(name = "email")
     private String email;
 
     @ManyToMany
-    List<Certification> certifications;
-    @JoinTable(name = "network_engineer_certification")
+    @JoinTable(name = "network_engineer_certification",
+               joinColumns = @JoinColumn(name = "network_engineer_id"),
+               inverseJoinColumns = @JoinColumn(name = "certification_id"))
+    private List<Certification> certifications = new ArrayList<>();
 
     @ManyToOne
     @JoinColumn(name = "site_id", nullable = true)
