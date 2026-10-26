@@ -33,7 +33,8 @@ public class SiteService {
         Optional<Site> found = SiteRepository.findById(id);
         if (found.isEmpty()) return "The site with that id does not exist";
         Site existing = found.get();      
-        existing.setName(incoming.getName());      
+        existing.setName(incoming.getName()); 
+        existing.setSiteNumber(incoming.getSiteNumber());      
         SiteRepository.save(existing);
         return "Site updated successfully";
     }

@@ -5,54 +5,46 @@ import java.util.Optional;
 import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+
 
 import com.example.net_manage.domain.NetworkEngineer;
 import com.example.net_manage.repository.NetworkEngineerRepository;
 
+
 @Service
 public class NetworkEngineerService {
-    @Autowired
-    private NetworkEngineerRepository networkEngineerRepository;
+  @Autowired 
+    private NetworkEngineerRepository NetworkEngineerRepository;
 
-    @Transactional
-    public void delete(UUID id) {
-        networkEngineerRepository.deleteById(id);
+    public NetworkEngineerService(NetworkEngineerRepository NetworkEngineerRepository) {
+        this.NetworkEngineerRepository = NetworkEngineerRepository;
     }
 
-    @Transactional(readOnly = true)
-    public List<NetworkEngineer> findAll() {
-        return networkEngineerRepository.findAll();
+    public String save(NetworkEngineer c) {
+        NetworkEngineerRepository.save(c);
+        return "Network engineer saved successfully";
     }
 
-    @Transactional(readOnly = true)
-    public Page<NetworkEngineer> findAll(Pageable pageable) {
-        return networkEngineerRepository.findAll(pageable);
+    public List<NetworkEngineer> findAll() { return NetworkEngineerRepository.findAll(); }
+
+    public Optional<NetworkEngineer> findById(UUID id) { return NetworkEngineerRepository.findById(id); }
+
+    public String update(UUID id, NetworkEngineer incoming) {
+        Optional<NetworkEngineer> found = NetworkEngineerRepository.findById(id);
+        if (found.isEmpty()) return "The network engineer with that id does not exist";
+        NetworkEngineer existing = found.get();      
+        existing.setFirstName(incoming.getFirstName());  
+        existing.setLastName(incoming.getLastName());
+        existing.setEmail(incoming.getEmail());
+        existing.setSite(incoming.getSite());       
+        NetworkEngineerRepository.save(existing);
+        return "Network engineer updated successfully";
     }
 
-    @Transactional(readOnly = true)
-    public List<NetworkEngineer> findAll(Sort sort) {
-        return networkEngineerRepository.findAll(sort);
-    }
-
-    @Transactional(readOnly = true)
-    public Optional<NetworkEngineer> findById(UUID id) {
-        return networkEngineerRepository.findById(id);
-    }
-
-    public String getNetworkEngineerFirstNameById(UUID id) {
-        Optional<NetworkEngineer> networkEngineerOptional = networkEngineerRepository.findById(id);
-        return networkEngineerOptional.isPresent()
-            ? networkEngineerOptional.get().getFirstName()
-            : null;
-    }
-
-    @Transactional
-    public NetworkEngineer save(NetworkEngineer networkEngineer) {
-        return networkEngineerRepository.save(networkEngineer);
+    public String delete(UUID id) {
+        if (!NetworkEngineerRepository.existsById(id)) return "The network engineer with that id does not exist";
+        NetworkEngineerRepository.deleteById(id);
+        return "Network engineer deleted successfully";
     }
 }

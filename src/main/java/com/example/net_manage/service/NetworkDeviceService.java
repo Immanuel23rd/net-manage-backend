@@ -5,44 +5,47 @@ import java.util.Optional;
 import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+
 
 import com.example.net_manage.domain.NetworkDevice;
 import com.example.net_manage.repository.NetworkDeviceRepository;
 
 
+
 @Service
 public class NetworkDeviceService {
-    @Autowired
-    private NetworkDeviceRepository networkDeviceRepository;
+    @Autowired 
+    private NetworkDeviceRepository NetworkDeviceRepository;
 
-    @Transactional
-    public void delete(UUID id) {
-        networkDeviceRepository.deleteById(id);
+    public NetworkDeviceService(NetworkDeviceRepository NetworkDeviceRepository) {
+        this.NetworkDeviceRepository = NetworkDeviceRepository;
     }
 
-    public List<NetworkDevice> findAll() {
-        return networkDeviceRepository.findAll();
+    public String save(NetworkDevice c) {
+        NetworkDeviceRepository.save(c);
+        return "Network device saved successfully";
     }
 
-    public Page<NetworkDevice> findAll(Pageable pageable) {
-        return networkDeviceRepository.findAll(pageable);
+    public List<NetworkDevice> findAll() { return NetworkDeviceRepository.findAll(); }
+
+    public Optional<NetworkDevice> findById(UUID id) { return NetworkDeviceRepository.findById(id); }
+
+    public String update(UUID id, NetworkDevice incoming) {
+        Optional<NetworkDevice> found = NetworkDeviceRepository.findById(id);
+        if (found.isEmpty()) return "The network device with that id does not exist";
+        NetworkDevice existing = found.get();      
+        existing.setHostname(incoming.getHostname());   
+        existing.setIpAddress(incoming.getIpAddress());
+        existing.setModel(incoming.getModel());
+        existing.setSerialNumber(incoming.getSerialNumber());      
+        NetworkDeviceRepository.save(existing);
+        return "Network device updated successfully";
     }
 
-    public List<NetworkDevice> findAll(Sort sort) {
-        return networkDeviceRepository.findAll(sort);
-    }
-
-    public Optional<NetworkDevice> findById(UUID id) {
-        return networkDeviceRepository.findById(id);
-    }
-
-    @Transactional
-    public NetworkDevice save(NetworkDevice networkDevice) {
-        return networkDeviceRepository.save(networkDevice);
+    public String delete(UUID id) {
+        if (!NetworkDeviceRepository.existsById(id)) return "The network device with that id does not exist";
+        NetworkDeviceRepository.deleteById(id);
+        return "Network device deleted successfully";
     }
 }
