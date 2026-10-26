@@ -33,7 +33,6 @@ public class MaintenanceTicketService {
         Optional<MaintenanceTicket> found = MaintenanceTicketRepository.findById(id);
         if (found.isEmpty()) return "The maintenance ticket with that id does not exist";
         MaintenanceTicket existing = found.get();      
-        existing.setLocalDate(incoming.getLocalDate());
         existing.setScheduledDate(incoming.getScheduledDate());
         existing.setIssue(incoming.getIssue());
         existing.setNetworkDevice(incoming.getNetworkDevice()); 

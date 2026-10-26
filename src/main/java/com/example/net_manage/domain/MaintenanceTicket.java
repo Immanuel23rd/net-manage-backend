@@ -22,9 +22,6 @@ public class MaintenanceTicket {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column (name = "localDate")
-    private LocalDate localDate;
-
     @Column (name ="scheduledDate")
     private LocalDate scheduledDate;
 
@@ -44,10 +41,6 @@ public class MaintenanceTicket {
 
     public UUID getId() {
         return id;
-    }
-
-    public LocalDate getLocalDate() {
-        return localDate;
     }
 
     public NetworkDevice getNetworkDevice() {
@@ -76,10 +69,6 @@ public class MaintenanceTicket {
 
     public void setId(UUID id) {
         this.id = id;
-    }
-
-    public void setLocalDate(LocalDate localDate) {
-        this.localDate = localDate;
     }
 
     public void setNetworkDevice(NetworkDevice networkDevice) {
