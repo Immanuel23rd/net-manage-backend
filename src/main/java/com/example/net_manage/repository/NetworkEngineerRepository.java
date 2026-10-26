@@ -1,7 +1,6 @@
 package com.example.net_manage.repository;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -9,19 +8,15 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import com.example.net_manage.domain.NetworkEngineer;
+import com.example.net_manage.domain.Site;
 
 
 public interface NetworkEngineerRepository extends JpaRepository<NetworkEngineer, UUID> {
 
-    List<NetworkEngineer> findByEmail(String email);
+    @Query("SELECT DISTINCT e FROM NetworkEngineer e JOIN e.certifications c " +
+           "WHERE LOWER(c.name) = LOWER(:name)")
+    List<NetworkEngineer> findByCertificationName(@Param("name") String name);
 
-
-
-    List<NetworkEngineer> findByFirstName(String firstName);
-
-    Optional<NetworkEngineer> findById(UUID id);
-
-
-    List<NetworkEngineer> findByLastName(String lastName);
-
+  
+    boolean existsBySite(Site site);
 }
