@@ -22,7 +22,7 @@ public class MaintenanceTicket {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column (name = "LocalDate")
+    @Column (name = "localDate")
     private LocalDate localDate;
 
     @Column (name ="scheduledDate")
