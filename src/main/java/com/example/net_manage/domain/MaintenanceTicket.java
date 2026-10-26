@@ -22,22 +22,24 @@ public class MaintenanceTicket {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column (name = "LocalDate", nullable = false)
+    @Column (name = "LocalDate")
     private LocalDate localDate;
 
-    @Column (name ="scheduledDate", nullable = false)
+    @Column (name ="scheduledDate")
     private LocalDate scheduledDate;
 
-    @Enumerated(EnumType.STRING)
-    @Column (name = "TicketStatus", nullable = false)
-    private TicketStatus.Status status;
+    @Column (name ="issue")
+    private String issue;
+
+@Enumerated(EnumType.STRING)
+    private TicketStatus status;
 
     @ManyToOne
-    @JoinColumn(name = "network_device_id", nullable = false)
+    @JoinColumn(name = "network_device_id")
     private NetworkDevice networkDevice;
 
     @ManyToOne
-    @JoinColumn(name = "network_engineer_id", nullable = false)
+    @JoinColumn(name = "network_engineer_id")
     private NetworkEngineer networkEngineer;
 
     public UUID getId() {
@@ -60,7 +62,15 @@ public class MaintenanceTicket {
         return scheduledDate;
     }
 
-    public TicketStatus.Status getStatus() {
+    public String getIssue() {
+        return issue;
+    }
+
+    public void setIssue(String issue) {
+        this.issue = issue;
+    }
+
+    public TicketStatus getStatus() {
         return status;
     }
 
@@ -84,7 +94,7 @@ public class MaintenanceTicket {
         this.scheduledDate = scheduledDate;
     }
 
-    public void setStatus(TicketStatus.Status status) {
+    public void setStatus(TicketStatus status) {
         this.status = status;
     }
 
