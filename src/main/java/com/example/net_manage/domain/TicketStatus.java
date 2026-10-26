@@ -1,11 +1,3 @@
 package com.example.net_manage.domain;
 
-public class TicketStatus {
-    public enum Status {
-        OPENEND,
-        IN_PROGRESS,
-        RESOLVED,
-        ABORTED
-    }
-    
-}
+public enum TicketStatus { OPENED, IN_PROGRESS, RESOLVED, ABORTED }
