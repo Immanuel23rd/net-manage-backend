@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.net_manage.domain.NetworkEngineer;
@@ -61,4 +62,11 @@ public class NetworkEngineerController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(msg);
         return ResponseEntity.ok(msg);
     }
+
+    // NetworkEngineerController — C1
+    @GetMapping("/by-certification")
+    public List<NetworkEngineer> byCertification(@RequestParam String name) {
+        return networkEngineerService.findByCertification(name);
+    }
+
 }

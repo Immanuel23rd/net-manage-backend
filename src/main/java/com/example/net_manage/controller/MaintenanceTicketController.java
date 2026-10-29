@@ -1,5 +1,6 @@
 package com.example.net_manage.controller;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -14,9 +15,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.net_manage.domain.MaintenanceTicket;
+import com.example.net_manage.domain.TicketStatus;
 import com.example.net_manage.service.MaintenanceTicketService;
 
 @RestController
@@ -59,5 +62,19 @@ public class MaintenanceTicketController {
         if (msg.equals("The maintenance ticket with that id does not exist"))
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(msg);
         return ResponseEntity.ok(msg);
+    }
+
+
+    // MaintenanceTicketController — B2
+   @GetMapping("/by-status")
+   public List<MaintenanceTicket> byStatus(@RequestParam TicketStatus status) {
+        return maintenanceTicketService.findByStatus(status);
+    }
+
+   
+     // MaintenanceTicketController — B3
+    @GetMapping("/between")
+    public List<MaintenanceTicket> between(@RequestParam String start, @RequestParam String end) {
+        return maintenanceTicketService.findBetween(LocalDate.parse(start), LocalDate.parse(end));
     }
 }

@@ -60,4 +60,8 @@ public class CertificationController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(msg);
         return ResponseEntity.ok(msg);
     }
+
+    // CertificationController — C3
+    @GetMapping("/unused")
+    public List<Certification> unused() { return certificationService.findUnused(); }
 }

@@ -9,6 +9,8 @@ import org.springframework.data.jpa.repository.Query;
 import com.example.net_manage.domain.Certification;
 
 public interface CertificationRepository extends JpaRepository<Certification, UUID> {
+   
+    // C3 (JPQL)
     @Query("SELECT c FROM Certification c WHERE c.networkEngineers IS EMPTY")
     List<Certification> findUnused();
 }

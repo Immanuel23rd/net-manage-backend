@@ -61,4 +61,8 @@ public class SiteController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(msg);
         return ResponseEntity.ok(msg);
     }
-}
+
+    // SiteController — C2
+    @GetMapping("/free")
+    public List<Site> free() { return siteService.findFreeSites(); }
+    }

@@ -14,36 +14,39 @@ import com.example.net_manage.repository.SiteRepository;
 @Service
 public class SiteService {
   @Autowired 
-    private SiteRepository SiteRepository;
+    private SiteRepository siteRepository;
 
     public SiteService(SiteRepository SiteRepository) {
-        this.SiteRepository = SiteRepository;
+        this.siteRepository = SiteRepository;
     }
 
     public String save(Site c) {
-        SiteRepository.save(c);
+        siteRepository.save(c);
         return "Site saved successfully";
     }
 
-    public List<Site> findAll() { return SiteRepository.findAll(); }
+    public List<Site> findAll() { return siteRepository.findAll(); }
 
-    public Optional<Site> findById(UUID id) { return SiteRepository.findById(id); }
+    public Optional<Site> findById(UUID id) { return siteRepository.findById(id); }
 
     public String update(UUID id, Site incoming) {
-        Optional<Site> found = SiteRepository.findById(id);
+        Optional<Site> found = siteRepository.findById(id);
         if (found.isEmpty()) return "The site with that id does not exist";
         Site existing = found.get();      
         existing.setName(incoming.getName()); 
         existing.setSiteNumber(incoming.getSiteNumber());      
-        SiteRepository.save(existing);
+        siteRepository.save(existing);
         return "Site updated successfully";
     }
 
     public String delete(UUID id) {
-        if (!SiteRepository.existsById(id)) return "The site with that id does not exist";
-        SiteRepository.deleteById(id);
+        if (!siteRepository.existsById(id)) return "The site with that id does not exist";
+        siteRepository.deleteById(id);
         return "Site deleted successfully";
     }
+
+    // SiteService — C2
+    public List<Site> findFreeSites() { return siteRepository.findFreeSites(); }
 
 }
     

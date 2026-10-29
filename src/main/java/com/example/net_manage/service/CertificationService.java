@@ -43,4 +43,7 @@ public class CertificationService {
         certificationRepository.deleteById(id);
         return "Certification deleted successfully";
     }
+
+    // CertificationService — C3
+    public List<Certification> findUnused() { return certificationRepository.findUnused(); }
 }

@@ -15,16 +15,20 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.net_manage.domain.NetworkDevice;
 import com.example.net_manage.service.NetworkDeviceService;
+import com.example.net_manage.service.NetworkEngineerService;
 
 @RestController
 @RequestMapping("/api/network-devices")
 public class NetworkDeviceController {
     @Autowired 
     private NetworkDeviceService networkDeviceService;
+    @Autowired
+    private NetworkEngineerService networkEngineerService;
 
     public NetworkDeviceController(NetworkDeviceService NetworkDeviceService) {
         this.networkDeviceService = NetworkDeviceService;
@@ -60,5 +64,21 @@ public class NetworkDeviceController {
         if (msg.equals("The network device with that id does not exist"))
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(msg);
         return ResponseEntity.ok(msg);
+    }
+
+    // NetworkDeviceController — B1
+    @GetMapping("/by-model")
+    public List<NetworkDevice> byModel(@RequestParam String model) {
+        return networkDeviceService.findByModel(model);
+    }
+
+    // NetworkDeviceController — C4 (needs BOTH services injected with @Autowired)
+   @GetMapping("/of-network-engineer/{networkEngineerId}")
+   public ResponseEntity<Object> ofEngineer(@PathVariable UUID networkEngineerId) {
+    // Check the engineer first: an unknown id must give 404, not an empty list.
+       if (networkEngineerService.findById(networkEngineerId).isEmpty())
+           return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                .body("The network engineer with that id does not exist");
+       return ResponseEntity.ok(networkDeviceService.findByEngineer(networkEngineerId));
     }
 }

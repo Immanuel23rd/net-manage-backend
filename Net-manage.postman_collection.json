@@ -1,0 +1,3162 @@
+{
+  "info": {
+    "_postman_id": "50f3ab80-204a-4e5f-a56c-994946adeb01",
+    "name": "Net-manage",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58382667"
+  },
+  "item": [
+    {
+      "name": "CCNA",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\":\"CCNA\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/certifications/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "certifications",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "CCNA",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"name\":\"CCNA\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/certifications/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "certifications",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "CCNP",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": " {\"name\":\"CCNP\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/certifications/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "certifications",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "CCNP",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": " {\"name\":\"CCNP\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/certifications/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "certifications",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "Fortinet NSE",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\":\"Fortinet NSE\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/certifications/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "certifications",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Fortinet NSE",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"name\":\"Fortinet NSE\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/certifications/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "certifications",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "CompTIA Network+",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": " {\"name\":\"CompTIA Network+\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/certifications/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "certifications",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "CompTIA Network+",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": " {\"name\":\"CompTIA Network+\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/certifications/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "certifications",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "Kigali HQ",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"siteNumber\":1,\"name\":\"Kigali HQ\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/sites/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "sites",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Kigali HQ",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"siteNumber\":1,\"name\":\"Kigali HQ\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/sites/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "sites",
+                "save"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "Huye",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"siteNumber\":2,\"name\":\"Huye Campus\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/sites/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "sites",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Huye",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"siteNumber\":2,\"name\":\"Huye Campus\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/sites/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "sites",
+                "save"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "Musanze",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"siteNumber\":3,\"name\":\"Musanze Branch\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/sites/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "sites",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Musanze",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"siteNumber\":3,\"name\":\"Musanze Branch\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/sites/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "sites",
+                "save"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "Rubavu",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"siteNumber\":4,\"name\":\"Rubavu Branch\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/sites/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "sites",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Rubavu",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"siteNumber\":4,\"name\":\"Rubavu Branch\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/sites/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "sites",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "core-sw-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"hostname\":\"core-sw-01\",\"model\":\"Cisco Catalyst\",\"serialNumber\":\"CAT9K-2024-0101\",\"ipAddress\":\"10.0.0.1\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/network-devices/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-devices",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "core-sw-01",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"hostname\":\"core-sw-01\",\"model\":\"Cisco Catalyst\",\"serialNumber\":\"CAT9K-2024-0101\",\"ipAddress\":\"10.0.0.1\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/network-devices/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-devices",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "dist-sw-02",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"hostname\":\"dist-sw-02\",\"model\":\"Cisco Catalyst\",\"serialNumber\":\"CAT9K-2024-0102\",\"ipAddress\":\"10.0.0.2\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/network-devices/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-devices",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "dist-sw-02",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"hostname\":\"dist-sw-02\",\"model\":\"Cisco Catalyst\",\"serialNumber\":\"CAT9K-2024-0102\",\"ipAddress\":\"10.0.0.2\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/network-devices/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-devices",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "fw-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "\r\n{\"hostname\":\"fw-01\",\"model\":\"FortiGate 60F\",\"serialNumber\":\"FGT60F-2024-0931\",\"ipAddress\":\"10.0.0.3\"}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/network-devices/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-devices",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "FortiGate 60F",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "\r\n{\"hostname\":\"fw-01\",\"model\":\"FortiGate 60F\",\"serialNumber\":\"FGT60F-2024-0931\",\"ipAddress\":\"10.0.0.3\"}\r\n",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/network-devices/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-devices",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "rtr-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "\r\n{\"hostname\":\"rtr-01\",\"model\":\"Cisco ISR\",\"serialNumber\":\"ISR4331-2024-0407\",\"ipAddress\":\"10.0.0.4\"}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/network-devices/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-devices",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Cisco ISR",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "\r\n{\"hostname\":\"rtr-01\",\"model\":\"Cisco ISR\",\"serialNumber\":\"ISR4331-2024-0407\",\"ipAddress\":\"10.0.0.4\"}\r\n",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/network-devices/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-devices",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "ap-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"hostname\":\"ap-01\",\"model\":\"Aruba AP-515\",\"serialNumber\":\"ARU515-2024-0550\",\"ipAddress\":\"10.0.0.5\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/network-devices/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-devices",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Aruba AP-515",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"hostname\":\"ap-01\",\"model\":\"Aruba AP-515\",\"serialNumber\":\"ARU515-2024-0550\",\"ipAddress\":\"10.0.0.5\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/network-devices/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-devices",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "Aline",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"firstName\":\"Aline\",\"lastName\":\"Uwase\",\"email\":\"aline@netmanage.rw\",\r\n \"site\":{\"id\":\"93d60897-8094-4c9d-9eb3-753480bf22cd\"},\r\n \"certifications\":[{\"id\":\"94488e56-9e45-46e3-952a-c6a3bae5a4e7\"},{\"id\":\"68617d19-0c99-4da8-aa6d-8b6a1365fde0\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/network-engineers/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-engineers",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Aline",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"firstName\":\"Aline\",\"lastName\":\"Uwase\",\"email\":\"aline@netmanage.rw\",\r\n \"site\":{\"id\":\"93d60897-8094-4c9d-9eb3-753480bf22cd\"},\r\n \"certifications\":[{\"id\":\"94488e56-9e45-46e3-952a-c6a3bae5a4e7\"},{\"id\":\"68617d19-0c99-4da8-aa6d-8b6a1365fde0\"}]}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/network-engineers/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-engineers",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "Jean",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"firstName\":\"Jean\",\"lastName\":\"Habimana\",\"email\":\"jean@netmanage.rw\",\r\n \"site\":{\"id\":\"ab20149a-6330-488c-b425-b4968c652fa1\"},\r\n \"certifications\":[{\"id\":\"02ea62c0-8efe-41f0-b450-a789bbfdde71\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/network-engineers/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-engineers",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Jean",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"firstName\":\"Jean\",\"lastName\":\"Habimana\",\"email\":\"jean@netmanage.rw\",\r\n \"site\":{\"id\":\"ab20149a-6330-488c-b425-b4968c652fa1\"},\r\n \"certifications\":[{\"id\":\"02ea62c0-8efe-41f0-b450-a789bbfdde71\"}]}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/network-engineers/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-engineers",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "Grace",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"firstName\":\"Grace\",\"lastName\":\"Mukamana\",\"email\":\"grace@netmanage.rw\",\r\n \"site\":{\"id\":\"4dde72fa-d6ee-4ed4-a22b-139f816db713\"},\r\n \"certifications\":[{\"id\":\"94488e56-9e45-46e3-952a-c6a3bae5a4e7\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/network-engineers/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-engineers",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Grace",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"firstName\":\"Grace\",\"lastName\":\"Mukamana\",\"email\":\"grace@netmanage.rw\",\r\n \"site\":{\"id\":\"4dde72fa-d6ee-4ed4-a22b-139f816db713\"},\r\n \"certifications\":[{\"id\":\"94488e56-9e45-46e3-952a-c6a3bae5a4e7\"}]}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/network-engineers/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-engineers",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "Resolved-Jean-fw-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-10-05\",\"status\":\"RESOLVED\",\r\n \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Resolved-Jean-fw-01",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-10-05\",\"status\":\"RESOLVED\",\r\n \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "37"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 21:51:47 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Maintenance ticket saved successfully"
+        }
+      ]
+    },
+    {
+      "name": "Resolved-Aline-core-sw-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-10-12\",\"status\":\"RESOLVED\",\r\n \"networkDevice\":{\"id\":\"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Resolved-Aline-core-sw-01",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-10-12\",\"status\":\"RESOLVED\",\r\n \"networkDevice\":{\"id\":\"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "37"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 21:51:19 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Maintenance ticket saved successfully"
+        }
+      ]
+    },
+    {
+      "name": "Aborted-Aline-fw-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-10-20\",\"status\":\"ABORTED\",\r\n \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Aborted-Aline-fw-01",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-10-20\",\"status\":\"ABORTED\",\r\n \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "save"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "37"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 09:31:18 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Maintenance ticket saved successfully"
+        }
+      ]
+    },
+    {
+      "name": "In_Progress-Aline-dist-sw-02",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-10-20\",\"status\":\"IN_PROGRESS\",\r\n \"networkDevice\":{\"id\":\"28479c06-7dc7-4263-a878-45041e3322e1\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "New Request",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-10-20\",\"status\":\"IN_PROGRESS\",\r\n \"networkDevice\":{\"id\":\"28479c06-7dc7-4263-a878-45041e3322e1\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "37"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 09:34:19 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Maintenance ticket saved successfully"
+        }
+      ]
+    },
+    {
+      "name": "Opened-Jean-fw-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-10-28\",\"status\":\"OPENED\",\r\n \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Opened-Jean-fw-01",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-10-28\",\"status\":\"OPENED\",\r\n \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "37"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 09:42:09 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Maintenance ticket saved successfully"
+        }
+      ]
+    },
+    {
+      "name": "Opened-Grace-rtr-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-10-30\",\"status\":\"OPENED\",\r\n \"networkDevice\":{\"id\":\"126dfc3c-254f-414a-93bf-827e2c44171d\"},\"networkEngineer\":{\"id\":\"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Opened-Grace-rtr-01",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-10-30\",\"status\":\"OPENED\",\r\n \"networkDevice\":{\"id\":\"126dfc3c-254f-414a-93bf-827e2c44171d\"},\"networkEngineer\":{\"id\":\"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "37"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 09:45:16 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Maintenance ticket saved successfully"
+        }
+      ]
+    },
+    {
+      "name": "Opened-Grace-core-sw-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-11-03\",\"status\":\"OPENED\",\r\n \"networkDevice\":{\"id\":\"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\"},\"networkEngineer\":{\"id\":\"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Opened-Grace-core-sw-01",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-11-03\",\"status\":\"OPENED\",\r\n \"networkDevice\":{\"id\":\"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\"},\"networkEngineer\":{\"id\":\"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "37"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 09:49:04 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Maintenance ticket saved successfully"
+        }
+      ]
+    },
+    {
+      "name": "In_Progess-Jean-ap-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-11-10\",\"status\":\"IN_PROGRESS\",\r\n \"networkDevice\":{\"id\":\"e54490fd-3b52-4906-bbe7-8889c9322032\"},\"networkEngineer\":{\"id\":\"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "In_Progess-Jean-ap-01",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-11-10\",\"status\":\"IN_PROGRESS\",\r\n \"networkDevice\":{\"id\":\"e54490fd-3b52-4906-bbe7-8889c9322032\"},\"networkEngineer\":{\"id\":\"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "37"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 09:52:34 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Maintenance ticket saved successfully"
+        }
+      ]
+    },
+    {
+      "name": "Opened-Aline-dist-sw-02",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-11-17\",\"status\":\"OPENED\",\r\n \"networkDevice\":{\"id\":\"28479c06-7dc7-4263-a878-45041e3322e1\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Opened-Aline-dist-sw-02",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-11-17\",\"status\":\"OPENED\",\r\n \"networkDevice\":{\"id\":\"28479c06-7dc7-4263-a878-45041e3322e1\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "37"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 09:54:38 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Maintenance ticket saved successfully"
+        }
+      ]
+    },
+    {
+      "name": "Aborted-Grace-rtr-01",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-11-24\",\"status\":\"ABORTED\",\r\n \"networkDevice\":{\"id\":\"126dfc3c-254f-414a-93bf-827e2c44171d\"},\"networkEngineer\":{\"id\":\"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "save"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Aborted-Grace-rtr-01",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-11-24\",\"status\":\"ABORTED\",\r\n \"networkDevice\":{\"id\":\"126dfc3c-254f-414a-93bf-827e2c44171d\"},\"networkEngineer\":{\"id\":\"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/save",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "save"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "37"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 09:59:06 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Maintenance ticket saved successfully"
+        }
+      ]
+    },
+    {
+      "name": "certifications/all",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/certifications/all",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "certifications",
+            "all"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "certifications/all",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/certifications/all",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "certifications",
+                "all"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "261"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 10:03:44 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n    \"name\": \"CCNA\"\n  },\n  {\n    \"id\": \"68617d19-0c99-4da8-aa6d-8b6a1365fde0\",\n    \"name\": \"CCNP\"\n  },\n  {\n    \"id\": \"02ea62c0-8efe-41f0-b450-a789bbfdde71\",\n    \"name\": \"Fortinet NSE\"\n  },\n  {\n    \"id\": \"238b0a4d-3e1b-438d-9369-e3985570bf8c\",\n    \"name\": \"CompTIA Network+\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "sites/all",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/sites/all",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "sites",
+            "all"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "sites/all",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/sites/all",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "sites",
+                "all"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "332"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 10:04:37 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"id\": \"93d60897-8094-4c9d-9eb3-753480bf22cd\",\n    \"name\": \"Kigali HQ\",\n    \"siteNumber\": 1\n  },\n  {\n    \"id\": \"ab20149a-6330-488c-b425-b4968c652fa1\",\n    \"name\": \"Huye Campus\",\n    \"siteNumber\": 2\n  },\n  {\n    \"id\": \"4dde72fa-d6ee-4ed4-a22b-139f816db713\",\n    \"name\": \"Musanze Branch\",\n    \"siteNumber\": 3\n  },\n  {\n    \"id\": \"816d7b26-8920-4fee-a715-26a079147f8c\",\n    \"name\": \"Rubavu Branch\",\n    \"siteNumber\": 4\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "network-devices/all",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/network-devices/all",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-devices",
+            "all"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "network-devices/all",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/network-devices/all",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-devices",
+                "all"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "738"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 10:05:13 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"hostname\": \"core-sw-01\",\n    \"id\": \"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\",\n    \"ipAddress\": \"10.0.0.1\",\n    \"model\": \"Cisco Catalyst\",\n    \"serialNumber\": \"CAT9K-2024-0101\"\n  },\n  {\n    \"hostname\": \"dist-sw-02\",\n    \"id\": \"28479c06-7dc7-4263-a878-45041e3322e1\",\n    \"ipAddress\": \"10.0.0.2\",\n    \"model\": \"Cisco Catalyst\",\n    \"serialNumber\": \"CAT9K-2024-0102\"\n  },\n  {\n    \"hostname\": \"fw-01\",\n    \"id\": \"ac9113fb-18a3-4e38-ad80-8744130f8d42\",\n    \"ipAddress\": \"10.0.0.3\",\n    \"model\": \"FortiGate 60F\",\n    \"serialNumber\": \"FGT60F-2024-0931\"\n  },\n  {\n    \"hostname\": \"rtr-01\",\n    \"id\": \"126dfc3c-254f-414a-93bf-827e2c44171d\",\n    \"ipAddress\": \"10.0.0.4\",\n    \"model\": \"Cisco ISR\",\n    \"serialNumber\": \"ISR4331-2024-0407\"\n  },\n  {\n    \"hostname\": \"ap-01\",\n    \"id\": \"e54490fd-3b52-4906-bbe7-8889c9322032\",\n    \"ipAddress\": \"10.0.0.5\",\n    \"model\": \"Aruba AP-515\",\n    \"serialNumber\": \"ARU515-2024-0550\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "network-engineers/all",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/network-engineers/all",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-engineers",
+            "all"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "network-engineers/all",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/network-engineers/all",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-engineers",
+                "all"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "920"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 10:05:52 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"certifications\": [\n      {\n        \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n        \"name\": \"CCNA\"\n      },\n      {\n        \"id\": \"68617d19-0c99-4da8-aa6d-8b6a1365fde0\",\n        \"name\": \"CCNP\"\n      }\n    ],\n    \"email\": \"aline@netmanage.rw\",\n    \"firstName\": \"Aline\",\n    \"id\": \"4c418842-85b9-4c28-90fa-87ad671d1609\",\n    \"lastName\": \"Uwase\",\n    \"site\": {\n      \"id\": \"93d60897-8094-4c9d-9eb3-753480bf22cd\",\n      \"name\": \"Kigali HQ\",\n      \"siteNumber\": 1\n    }\n  },\n  {\n    \"certifications\": [\n      {\n        \"id\": \"02ea62c0-8efe-41f0-b450-a789bbfdde71\",\n        \"name\": \"Fortinet NSE\"\n      }\n    ],\n    \"email\": \"jean@netmanage.rw\",\n    \"firstName\": \"Jean\",\n    \"id\": \"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\",\n    \"lastName\": \"Habimana\",\n    \"site\": {\n      \"id\": \"ab20149a-6330-488c-b425-b4968c652fa1\",\n      \"name\": \"Huye Campus\",\n      \"siteNumber\": 2\n    }\n  },\n  {\n    \"certifications\": [\n      {\n        \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n        \"name\": \"CCNA\"\n      }\n    ],\n    \"email\": \"grace@netmanage.rw\",\n    \"firstName\": \"Grace\",\n    \"id\": \"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\",\n    \"lastName\": \"Mukamana\",\n    \"site\": {\n      \"id\": \"4dde72fa-d6ee-4ed4-a22b-139f816db713\",\n      \"name\": \"Musanze Branch\",\n      \"siteNumber\": 3\n    }\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "maintenance-tickets/all",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-10-20\",\"status\":\"ABORTED\",\"issue\":\"Power supply fault\",\r\n \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/all",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "all"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "maintenance-tickets/all",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-10-20\",\"status\":\"ABORTED\",\"issue\":\"Power supply fault\",\r\n \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/all",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "all"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "5989"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 10:06:31 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"id\": \"36a446c5-8bb8-4a9c-95a5-6edd227a2c6a\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"fw-01\",\n      \"id\": \"ac9113fb-18a3-4e38-ad80-8744130f8d42\",\n      \"ipAddress\": \"10.0.0.3\",\n      \"model\": \"FortiGate 60F\",\n      \"serialNumber\": \"FGT60F-2024-0931\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"02ea62c0-8efe-41f0-b450-a789bbfdde71\",\n          \"name\": \"Fortinet NSE\"\n        }\n      ],\n      \"email\": \"jean@netmanage.rw\",\n      \"firstName\": \"Jean\",\n      \"id\": \"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\",\n      \"lastName\": \"Habimana\",\n      \"site\": {\n        \"id\": \"ab20149a-6330-488c-b425-b4968c652fa1\",\n        \"name\": \"Huye Campus\",\n        \"siteNumber\": 2\n      }\n    },\n    \"scheduledDate\": \"2026-10-05\",\n    \"status\": \"RESOLVED\"\n  },\n  {\n    \"id\": \"2852f9cc-c697-4efc-8d79-237669fb438b\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"core-sw-01\",\n      \"id\": \"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\",\n      \"ipAddress\": \"10.0.0.1\",\n      \"model\": \"Cisco Catalyst\",\n      \"serialNumber\": \"CAT9K-2024-0101\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        },\n        {\n          \"id\": \"68617d19-0c99-4da8-aa6d-8b6a1365fde0\",\n          \"name\": \"CCNP\"\n        }\n      ],\n      \"email\": \"aline@netmanage.rw\",\n      \"firstName\": \"Aline\",\n      \"id\": \"4c418842-85b9-4c28-90fa-87ad671d1609\",\n      \"lastName\": \"Uwase\",\n      \"site\": {\n        \"id\": \"93d60897-8094-4c9d-9eb3-753480bf22cd\",\n        \"name\": \"Kigali HQ\",\n        \"siteNumber\": 1\n      }\n    },\n    \"scheduledDate\": \"2026-10-12\",\n    \"status\": \"RESOLVED\"\n  },\n  {\n    \"id\": \"b918918e-fe2b-4040-ad03-3608845cfcb3\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"fw-01\",\n      \"id\": \"ac9113fb-18a3-4e38-ad80-8744130f8d42\",\n      \"ipAddress\": \"10.0.0.3\",\n      \"model\": \"FortiGate 60F\",\n      \"serialNumber\": \"FGT60F-2024-0931\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        },\n        {\n          \"id\": \"68617d19-0c99-4da8-aa6d-8b6a1365fde0\",\n          \"name\": \"CCNP\"\n        }\n      ],\n      \"email\": \"aline@netmanage.rw\",\n      \"firstName\": \"Aline\",\n      \"id\": \"4c418842-85b9-4c28-90fa-87ad671d1609\",\n      \"lastName\": \"Uwase\",\n      \"site\": {\n        \"id\": \"93d60897-8094-4c9d-9eb3-753480bf22cd\",\n        \"name\": \"Kigali HQ\",\n        \"siteNumber\": 1\n      }\n    },\n    \"scheduledDate\": \"2026-10-20\",\n    \"status\": \"ABORTED\"\n  },\n  {\n    \"id\": \"b154fa14-29b3-4378-a887-8517ae74b095\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"dist-sw-02\",\n      \"id\": \"28479c06-7dc7-4263-a878-45041e3322e1\",\n      \"ipAddress\": \"10.0.0.2\",\n      \"model\": \"Cisco Catalyst\",\n      \"serialNumber\": \"CAT9K-2024-0102\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        },\n        {\n          \"id\": \"68617d19-0c99-4da8-aa6d-8b6a1365fde0\",\n          \"name\": \"CCNP\"\n        }\n      ],\n      \"email\": \"aline@netmanage.rw\",\n      \"firstName\": \"Aline\",\n      \"id\": \"4c418842-85b9-4c28-90fa-87ad671d1609\",\n      \"lastName\": \"Uwase\",\n      \"site\": {\n        \"id\": \"93d60897-8094-4c9d-9eb3-753480bf22cd\",\n        \"name\": \"Kigali HQ\",\n        \"siteNumber\": 1\n      }\n    },\n    \"scheduledDate\": \"2026-10-20\",\n    \"status\": \"IN_PROGRESS\"\n  },\n  {\n    \"id\": \"5d04b6a5-7185-46fb-b549-5908db245912\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"fw-01\",\n      \"id\": \"ac9113fb-18a3-4e38-ad80-8744130f8d42\",\n      \"ipAddress\": \"10.0.0.3\",\n      \"model\": \"FortiGate 60F\",\n      \"serialNumber\": \"FGT60F-2024-0931\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"02ea62c0-8efe-41f0-b450-a789bbfdde71\",\n          \"name\": \"Fortinet NSE\"\n        }\n      ],\n      \"email\": \"jean@netmanage.rw\",\n      \"firstName\": \"Jean\",\n      \"id\": \"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\",\n      \"lastName\": \"Habimana\",\n      \"site\": {\n        \"id\": \"ab20149a-6330-488c-b425-b4968c652fa1\",\n        \"name\": \"Huye Campus\",\n        \"siteNumber\": 2\n      }\n    },\n    \"scheduledDate\": \"2026-10-28\",\n    \"status\": \"OPENED\"\n  },\n  {\n    \"id\": \"cdb6bcba-0ec1-4618-878c-98498d90acad\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"rtr-01\",\n      \"id\": \"126dfc3c-254f-414a-93bf-827e2c44171d\",\n      \"ipAddress\": \"10.0.0.4\",\n      \"model\": \"Cisco ISR\",\n      \"serialNumber\": \"ISR4331-2024-0407\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        }\n      ],\n      \"email\": \"grace@netmanage.rw\",\n      \"firstName\": \"Grace\",\n      \"id\": \"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\",\n      \"lastName\": \"Mukamana\",\n      \"site\": {\n        \"id\": \"4dde72fa-d6ee-4ed4-a22b-139f816db713\",\n        \"name\": \"Musanze Branch\",\n        \"siteNumber\": 3\n      }\n    },\n    \"scheduledDate\": \"2026-10-30\",\n    \"status\": \"OPENED\"\n  },\n  {\n    \"id\": \"7426afb9-ab00-4f67-b223-5c2e9a6d3b75\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"core-sw-01\",\n      \"id\": \"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\",\n      \"ipAddress\": \"10.0.0.1\",\n      \"model\": \"Cisco Catalyst\",\n      \"serialNumber\": \"CAT9K-2024-0101\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        }\n      ],\n      \"email\": \"grace@netmanage.rw\",\n      \"firstName\": \"Grace\",\n      \"id\": \"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\",\n      \"lastName\": \"Mukamana\",\n      \"site\": {\n        \"id\": \"4dde72fa-d6ee-4ed4-a22b-139f816db713\",\n        \"name\": \"Musanze Branch\",\n        \"siteNumber\": 3\n      }\n    },\n    \"scheduledDate\": \"2026-11-03\",\n    \"status\": \"OPENED\"\n  },\n  {\n    \"id\": \"8be123ce-9601-480f-866b-f68360953d81\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"ap-01\",\n      \"id\": \"e54490fd-3b52-4906-bbe7-8889c9322032\",\n      \"ipAddress\": \"10.0.0.5\",\n      \"model\": \"Aruba AP-515\",\n      \"serialNumber\": \"ARU515-2024-0550\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"02ea62c0-8efe-41f0-b450-a789bbfdde71\",\n          \"name\": \"Fortinet NSE\"\n        }\n      ],\n      \"email\": \"jean@netmanage.rw\",\n      \"firstName\": \"Jean\",\n      \"id\": \"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\",\n      \"lastName\": \"Habimana\",\n      \"site\": {\n        \"id\": \"ab20149a-6330-488c-b425-b4968c652fa1\",\n        \"name\": \"Huye Campus\",\n        \"siteNumber\": 2\n      }\n    },\n    \"scheduledDate\": \"2026-11-10\",\n    \"status\": \"IN_PROGRESS\"\n  },\n  {\n    \"id\": \"85270c02-5ceb-4672-be9e-785a2c3da339\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"dist-sw-02\",\n      \"id\": \"28479c06-7dc7-4263-a878-45041e3322e1\",\n      \"ipAddress\": \"10.0.0.2\",\n      \"model\": \"Cisco Catalyst\",\n      \"serialNumber\": \"CAT9K-2024-0102\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        },\n        {\n          \"id\": \"68617d19-0c99-4da8-aa6d-8b6a1365fde0\",\n          \"name\": \"CCNP\"\n        }\n      ],\n      \"email\": \"aline@netmanage.rw\",\n      \"firstName\": \"Aline\",\n      \"id\": \"4c418842-85b9-4c28-90fa-87ad671d1609\",\n      \"lastName\": \"Uwase\",\n      \"site\": {\n        \"id\": \"93d60897-8094-4c9d-9eb3-753480bf22cd\",\n        \"name\": \"Kigali HQ\",\n        \"siteNumber\": 1\n      }\n    },\n    \"scheduledDate\": \"2026-11-17\",\n    \"status\": \"OPENED\"\n  },\n  {\n    \"id\": \"b1af81db-7663-4948-b852-26ca701581cd\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"rtr-01\",\n      \"id\": \"126dfc3c-254f-414a-93bf-827e2c44171d\",\n      \"ipAddress\": \"10.0.0.4\",\n      \"model\": \"Cisco ISR\",\n      \"serialNumber\": \"ISR4331-2024-0407\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        }\n      ],\n      \"email\": \"grace@netmanage.rw\",\n      \"firstName\": \"Grace\",\n      \"id\": \"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\",\n      \"lastName\": \"Mukamana\",\n      \"site\": {\n        \"id\": \"4dde72fa-d6ee-4ed4-a22b-139f816db713\",\n        \"name\": \"Musanze Branch\",\n        \"siteNumber\": 3\n      }\n    },\n    \"scheduledDate\": \"2026-11-24\",\n    \"status\": \"ABORTED\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Get-By-Model",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/network-devices/by-model?model=cisco catalyst",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-devices",
+            "by-model"
+          ],
+          "query": [
+            {
+              "key": "model",
+              "value": "cisco catalyst"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "network-devices/by-model?model=cisco catalyst",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/network-devices/by-model?model=cisco catalyst",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-devices",
+                "by-model"
+              ],
+              "query": [
+                {
+                  "key": "model",
+                  "value": "cisco catalyst"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "303"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 15:09:19 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"hostname\": \"core-sw-01\",\n    \"id\": \"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\",\n    \"ipAddress\": \"10.0.0.1\",\n    \"model\": \"Cisco Catalyst\",\n    \"serialNumber\": \"CAT9K-2024-0101\"\n  },\n  {\n    \"hostname\": \"dist-sw-02\",\n    \"id\": \"28479c06-7dc7-4263-a878-45041e3322e1\",\n    \"ipAddress\": \"10.0.0.2\",\n    \"model\": \"Cisco Catalyst\",\n    \"serialNumber\": \"CAT9K-2024-0102\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Get-By-Model-Unknown",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/network-devices/by-model?model=cisco 7200",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-devices",
+            "by-model"
+          ],
+          "query": [
+            {
+              "key": "model",
+              "value": "cisco 7200"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "network-devices/by-model?model=cisco 7200",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/network-devices/by-model?model=cisco 7200",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-devices",
+                "by-model"
+              ],
+              "query": [
+                {
+                  "key": "model",
+                  "value": "cisco 7200"
+                }
+              ]
+            }
+          },
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "2"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 20:54:50 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[]"
+        }
+      ]
+    },
+    {
+      "name": "Get-By-Status",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/by-status?status=OPENED",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "by-status"
+          ],
+          "query": [
+            {
+              "key": "status",
+              "value": "OPENED"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "maintenance-tickets/by-status?status=OPENED",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/by-status?status=OPENED",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "by-status"
+              ],
+              "query": [
+                {
+                  "key": "status",
+                  "value": "OPENED"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "2360"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 20:56:51 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"id\": \"5d04b6a5-7185-46fb-b549-5908db245912\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"fw-01\",\n      \"id\": \"ac9113fb-18a3-4e38-ad80-8744130f8d42\",\n      \"ipAddress\": \"10.0.0.3\",\n      \"model\": \"FortiGate 60F\",\n      \"serialNumber\": \"FGT60F-2024-0931\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"02ea62c0-8efe-41f0-b450-a789bbfdde71\",\n          \"name\": \"Fortinet NSE\"\n        }\n      ],\n      \"email\": \"jean@netmanage.rw\",\n      \"firstName\": \"Jean\",\n      \"id\": \"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\",\n      \"lastName\": \"Habimana\",\n      \"site\": {\n        \"id\": \"ab20149a-6330-488c-b425-b4968c652fa1\",\n        \"name\": \"Huye Campus\",\n        \"siteNumber\": 2\n      }\n    },\n    \"scheduledDate\": \"2026-10-28\",\n    \"status\": \"OPENED\"\n  },\n  {\n    \"id\": \"cdb6bcba-0ec1-4618-878c-98498d90acad\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"rtr-01\",\n      \"id\": \"126dfc3c-254f-414a-93bf-827e2c44171d\",\n      \"ipAddress\": \"10.0.0.4\",\n      \"model\": \"Cisco ISR\",\n      \"serialNumber\": \"ISR4331-2024-0407\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        }\n      ],\n      \"email\": \"grace@netmanage.rw\",\n      \"firstName\": \"Grace\",\n      \"id\": \"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\",\n      \"lastName\": \"Mukamana\",\n      \"site\": {\n        \"id\": \"4dde72fa-d6ee-4ed4-a22b-139f816db713\",\n        \"name\": \"Musanze Branch\",\n        \"siteNumber\": 3\n      }\n    },\n    \"scheduledDate\": \"2026-10-30\",\n    \"status\": \"OPENED\"\n  },\n  {\n    \"id\": \"7426afb9-ab00-4f67-b223-5c2e9a6d3b75\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"core-sw-01\",\n      \"id\": \"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\",\n      \"ipAddress\": \"10.0.0.1\",\n      \"model\": \"Cisco Catalyst\",\n      \"serialNumber\": \"CAT9K-2024-0101\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        }\n      ],\n      \"email\": \"grace@netmanage.rw\",\n      \"firstName\": \"Grace\",\n      \"id\": \"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\",\n      \"lastName\": \"Mukamana\",\n      \"site\": {\n        \"id\": \"4dde72fa-d6ee-4ed4-a22b-139f816db713\",\n        \"name\": \"Musanze Branch\",\n        \"siteNumber\": 3\n      }\n    },\n    \"scheduledDate\": \"2026-11-03\",\n    \"status\": \"OPENED\"\n  },\n  {\n    \"id\": \"85270c02-5ceb-4672-be9e-785a2c3da339\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"dist-sw-02\",\n      \"id\": \"28479c06-7dc7-4263-a878-45041e3322e1\",\n      \"ipAddress\": \"10.0.0.2\",\n      \"model\": \"Cisco Catalyst\",\n      \"serialNumber\": \"CAT9K-2024-0102\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        },\n        {\n          \"id\": \"68617d19-0c99-4da8-aa6d-8b6a1365fde0\",\n          \"name\": \"CCNP\"\n        }\n      ],\n      \"email\": \"aline@netmanage.rw\",\n      \"firstName\": \"Aline\",\n      \"id\": \"4c418842-85b9-4c28-90fa-87ad671d1609\",\n      \"lastName\": \"Uwase\",\n      \"site\": {\n        \"id\": \"93d60897-8094-4c9d-9eb3-753480bf22cd\",\n        \"name\": \"Kigali HQ\",\n        \"siteNumber\": 1\n      }\n    },\n    \"scheduledDate\": \"2026-11-17\",\n    \"status\": \"OPENED\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Get-By-Status-Invalid",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/by-status?status=xyz",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "by-status"
+          ],
+          "query": [
+            {
+              "key": "status",
+              "value": "xyz"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "maintenance-tickets/by-status?status=xyz",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/by-status?status=xyz",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "by-status"
+              ],
+              "query": [
+                {
+                  "key": "status",
+                  "value": "xyz"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 21:00:45 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"timestamp\": \"2026-10-29T21:00:45.764Z\",\n  \"status\": 400,\n  \"error\": \"Bad Request\",\n  \"path\": \"/api/maintenance-tickets/by-status\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Get-Between-Dates",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"scheduledDate\":\"2026-10-20\",\"status\":\"ABORTED\",\"issue\":\"Power supply fault\",\r\n \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/maintenance-tickets/between?start=2026-10-01&end=2026-10-31",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "maintenance-tickets",
+            "between"
+          ],
+          "query": [
+            {
+              "key": "start",
+              "value": "2026-10-01"
+            },
+            {
+              "key": "end",
+              "value": "2026-10-31"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "maintenance-tickets/between?start=2026-10-01&end=2026-10-31",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"scheduledDate\":\"2026-10-20\",\"status\":\"ABORTED\",\"issue\":\"Power supply fault\",\r\n \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/maintenance-tickets/between?start=2026-10-01&end=2026-10-31",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "maintenance-tickets",
+                "between"
+              ],
+              "query": [
+                {
+                  "key": "start",
+                  "value": "2026-10-01"
+                },
+                {
+                  "key": "end",
+                  "value": "2026-10-31"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "3625"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 21:03:46 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"id\": \"36a446c5-8bb8-4a9c-95a5-6edd227a2c6a\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"fw-01\",\n      \"id\": \"ac9113fb-18a3-4e38-ad80-8744130f8d42\",\n      \"ipAddress\": \"10.0.0.3\",\n      \"model\": \"FortiGate 60F\",\n      \"serialNumber\": \"FGT60F-2024-0931\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"02ea62c0-8efe-41f0-b450-a789bbfdde71\",\n          \"name\": \"Fortinet NSE\"\n        }\n      ],\n      \"email\": \"jean@netmanage.rw\",\n      \"firstName\": \"Jean\",\n      \"id\": \"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\",\n      \"lastName\": \"Habimana\",\n      \"site\": {\n        \"id\": \"ab20149a-6330-488c-b425-b4968c652fa1\",\n        \"name\": \"Huye Campus\",\n        \"siteNumber\": 2\n      }\n    },\n    \"scheduledDate\": \"2026-10-05\",\n    \"status\": \"RESOLVED\"\n  },\n  {\n    \"id\": \"2852f9cc-c697-4efc-8d79-237669fb438b\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"core-sw-01\",\n      \"id\": \"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\",\n      \"ipAddress\": \"10.0.0.1\",\n      \"model\": \"Cisco Catalyst\",\n      \"serialNumber\": \"CAT9K-2024-0101\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        },\n        {\n          \"id\": \"68617d19-0c99-4da8-aa6d-8b6a1365fde0\",\n          \"name\": \"CCNP\"\n        }\n      ],\n      \"email\": \"aline@netmanage.rw\",\n      \"firstName\": \"Aline\",\n      \"id\": \"4c418842-85b9-4c28-90fa-87ad671d1609\",\n      \"lastName\": \"Uwase\",\n      \"site\": {\n        \"id\": \"93d60897-8094-4c9d-9eb3-753480bf22cd\",\n        \"name\": \"Kigali HQ\",\n        \"siteNumber\": 1\n      }\n    },\n    \"scheduledDate\": \"2026-10-12\",\n    \"status\": \"RESOLVED\"\n  },\n  {\n    \"id\": \"b918918e-fe2b-4040-ad03-3608845cfcb3\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"fw-01\",\n      \"id\": \"ac9113fb-18a3-4e38-ad80-8744130f8d42\",\n      \"ipAddress\": \"10.0.0.3\",\n      \"model\": \"FortiGate 60F\",\n      \"serialNumber\": \"FGT60F-2024-0931\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        },\n        {\n          \"id\": \"68617d19-0c99-4da8-aa6d-8b6a1365fde0\",\n          \"name\": \"CCNP\"\n        }\n      ],\n      \"email\": \"aline@netmanage.rw\",\n      \"firstName\": \"Aline\",\n      \"id\": \"4c418842-85b9-4c28-90fa-87ad671d1609\",\n      \"lastName\": \"Uwase\",\n      \"site\": {\n        \"id\": \"93d60897-8094-4c9d-9eb3-753480bf22cd\",\n        \"name\": \"Kigali HQ\",\n        \"siteNumber\": 1\n      }\n    },\n    \"scheduledDate\": \"2026-10-20\",\n    \"status\": \"ABORTED\"\n  },\n  {\n    \"id\": \"b154fa14-29b3-4378-a887-8517ae74b095\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"dist-sw-02\",\n      \"id\": \"28479c06-7dc7-4263-a878-45041e3322e1\",\n      \"ipAddress\": \"10.0.0.2\",\n      \"model\": \"Cisco Catalyst\",\n      \"serialNumber\": \"CAT9K-2024-0102\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        },\n        {\n          \"id\": \"68617d19-0c99-4da8-aa6d-8b6a1365fde0\",\n          \"name\": \"CCNP\"\n        }\n      ],\n      \"email\": \"aline@netmanage.rw\",\n      \"firstName\": \"Aline\",\n      \"id\": \"4c418842-85b9-4c28-90fa-87ad671d1609\",\n      \"lastName\": \"Uwase\",\n      \"site\": {\n        \"id\": \"93d60897-8094-4c9d-9eb3-753480bf22cd\",\n        \"name\": \"Kigali HQ\",\n        \"siteNumber\": 1\n      }\n    },\n    \"scheduledDate\": \"2026-10-20\",\n    \"status\": \"IN_PROGRESS\"\n  },\n  {\n    \"id\": \"5d04b6a5-7185-46fb-b549-5908db245912\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"fw-01\",\n      \"id\": \"ac9113fb-18a3-4e38-ad80-8744130f8d42\",\n      \"ipAddress\": \"10.0.0.3\",\n      \"model\": \"FortiGate 60F\",\n      \"serialNumber\": \"FGT60F-2024-0931\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"02ea62c0-8efe-41f0-b450-a789bbfdde71\",\n          \"name\": \"Fortinet NSE\"\n        }\n      ],\n      \"email\": \"jean@netmanage.rw\",\n      \"firstName\": \"Jean\",\n      \"id\": \"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\",\n      \"lastName\": \"Habimana\",\n      \"site\": {\n        \"id\": \"ab20149a-6330-488c-b425-b4968c652fa1\",\n        \"name\": \"Huye Campus\",\n        \"siteNumber\": 2\n      }\n    },\n    \"scheduledDate\": \"2026-10-28\",\n    \"status\": \"OPENED\"\n  },\n  {\n    \"id\": \"cdb6bcba-0ec1-4618-878c-98498d90acad\",\n    \"issue\": null,\n    \"networkDevice\": {\n      \"hostname\": \"rtr-01\",\n      \"id\": \"126dfc3c-254f-414a-93bf-827e2c44171d\",\n      \"ipAddress\": \"10.0.0.4\",\n      \"model\": \"Cisco ISR\",\n      \"serialNumber\": \"ISR4331-2024-0407\"\n    },\n    \"networkEngineer\": {\n      \"certifications\": [\n        {\n          \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n          \"name\": \"CCNA\"\n        }\n      ],\n      \"email\": \"grace@netmanage.rw\",\n      \"firstName\": \"Grace\",\n      \"id\": \"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\",\n      \"lastName\": \"Mukamana\",\n      \"site\": {\n        \"id\": \"4dde72fa-d6ee-4ed4-a22b-139f816db713\",\n        \"name\": \"Musanze Branch\",\n        \"siteNumber\": 3\n      }\n    },\n    \"scheduledDate\": \"2026-10-30\",\n    \"status\": \"OPENED\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Get-By-Certification",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/network-engineers/by-certification?name=ccna",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-engineers",
+            "by-certification"
+          ],
+          "query": [
+            {
+              "key": "name",
+              "value": "ccna"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "network-engineers/by-certification?name=ccna",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/network-engineers/by-certification?name=ccna",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-engineers",
+                "by-certification"
+              ],
+              "query": [
+                {
+                  "key": "name",
+                  "value": "ccna"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "629"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 21:05:16 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"certifications\": [\n      {\n        \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n        \"name\": \"CCNA\"\n      },\n      {\n        \"id\": \"68617d19-0c99-4da8-aa6d-8b6a1365fde0\",\n        \"name\": \"CCNP\"\n      }\n    ],\n    \"email\": \"aline@netmanage.rw\",\n    \"firstName\": \"Aline\",\n    \"id\": \"4c418842-85b9-4c28-90fa-87ad671d1609\",\n    \"lastName\": \"Uwase\",\n    \"site\": {\n      \"id\": \"93d60897-8094-4c9d-9eb3-753480bf22cd\",\n      \"name\": \"Kigali HQ\",\n      \"siteNumber\": 1\n    }\n  },\n  {\n    \"certifications\": [\n      {\n        \"id\": \"94488e56-9e45-46e3-952a-c6a3bae5a4e7\",\n        \"name\": \"CCNA\"\n      }\n    ],\n    \"email\": \"grace@netmanage.rw\",\n    \"firstName\": \"Grace\",\n    \"id\": \"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\",\n    \"lastName\": \"Mukamana\",\n    \"site\": {\n      \"id\": \"4dde72fa-d6ee-4ed4-a22b-139f816db713\",\n      \"name\": \"Musanze Branch\",\n      \"siteNumber\": 3\n    }\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Get-Free-Sites",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/sites/free",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "sites",
+            "free"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "sites/free",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/sites/free",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "sites",
+                "free"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "85"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 21:06:46 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"id\": \"816d7b26-8920-4fee-a715-26a079147f8c\",\n    \"name\": \"Rubavu Branch\",\n    \"siteNumber\": 4\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Get-Unused-Certifications",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/certifications/unused",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "certifications",
+            "unused"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "certifications/unused",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/certifications/unused",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "certifications",
+                "unused"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "73"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 21:08:13 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"id\": \"238b0a4d-3e1b-438d-9369-e3985570bf8c\",\n    \"name\": \"CompTIA Network+\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Get-NetworkDevice-Of-NetworkEngineer-Aline",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/network-devices/of-network-engineer/4c418842-85b9-4c28-90fa-87ad671d1609",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-devices",
+            "of-network-engineer",
+            "4c418842-85b9-4c28-90fa-87ad671d1609"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "network-devices/of-network-engineer/{Aline id}",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/network-devices/of-network-engineer/4c418842-85b9-4c28-90fa-87ad671d1609",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-devices",
+                "of-network-engineer",
+                "4c418842-85b9-4c28-90fa-87ad671d1609"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 21:25:59 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"hostname\": \"dist-sw-02\",\n    \"id\": \"28479c06-7dc7-4263-a878-45041e3322e1\",\n    \"ipAddress\": \"10.0.0.2\",\n    \"model\": \"Cisco Catalyst\",\n    \"serialNumber\": \"CAT9K-2024-0102\"\n  },\n  {\n    \"hostname\": \"fw-01\",\n    \"id\": \"ac9113fb-18a3-4e38-ad80-8744130f8d42\",\n    \"ipAddress\": \"10.0.0.3\",\n    \"model\": \"FortiGate 60F\",\n    \"serialNumber\": \"FGT60F-2024-0931\"\n  },\n  {\n    \"hostname\": \"core-sw-01\",\n    \"id\": \"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\",\n    \"ipAddress\": \"10.0.0.1\",\n    \"model\": \"Cisco Catalyst\",\n    \"serialNumber\": \"CAT9K-2024-0101\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Get-NetworkDevice-Of-NetworkEngineer-Jean",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/network-devices/of-network-engineer/a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-devices",
+            "of-network-engineer",
+            "a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "network-devices/of-network-engineer/{Jean id}",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/network-devices/of-network-engineer/a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-devices",
+                "of-network-engineer",
+                "a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 21:28:36 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"hostname\": \"fw-01\",\n    \"id\": \"ac9113fb-18a3-4e38-ad80-8744130f8d42\",\n    \"ipAddress\": \"10.0.0.3\",\n    \"model\": \"FortiGate 60F\",\n    \"serialNumber\": \"FGT60F-2024-0931\"\n  },\n  {\n    \"hostname\": \"ap-01\",\n    \"id\": \"e54490fd-3b52-4906-bbe7-8889c9322032\",\n    \"ipAddress\": \"10.0.0.5\",\n    \"model\": \"Aruba AP-515\",\n    \"serialNumber\": \"ARU515-2024-0550\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Get-NetworkDevice-Of-NetworkEngineer-Grace",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/network-devices/of-network-engineer/9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "network-devices",
+            "of-network-engineer",
+            "9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "network-devices/of-network-engineer/{Grace id}",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/network-devices/of-network-engineer/9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "network-devices",
+                "of-network-engineer",
+                "9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 29 Oct 2026 21:31:27 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"hostname\": \"rtr-01\",\n    \"id\": \"126dfc3c-254f-414a-93bf-827e2c44171d\",\n    \"ipAddress\": \"10.0.0.4\",\n    \"model\": \"Cisco ISR\",\n    \"serialNumber\": \"ISR4331-2024-0407\"\n  },\n  {\n    \"hostname\": \"core-sw-01\",\n    \"id\": \"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\",\n    \"ipAddress\": \"10.0.0.1\",\n    \"model\": \"Cisco Catalyst\",\n    \"serialNumber\": \"CAT9K-2024-0101\"\n  }\n]"
+        }
+      ]
+    }
+  ]
+}

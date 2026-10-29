@@ -16,36 +16,47 @@ import com.example.net_manage.repository.NetworkDeviceRepository;
 @Service
 public class NetworkDeviceService {
     @Autowired 
-    private NetworkDeviceRepository NetworkDeviceRepository;
+    private NetworkDeviceRepository networkDeviceRepository;
 
     public NetworkDeviceService(NetworkDeviceRepository NetworkDeviceRepository) {
-        this.NetworkDeviceRepository = NetworkDeviceRepository;
+        this.networkDeviceRepository = NetworkDeviceRepository;
     }
 
     public String save(NetworkDevice c) {
-        NetworkDeviceRepository.save(c);
+        networkDeviceRepository.save(c);
         return "Network device saved successfully";
     }
 
-    public List<NetworkDevice> findAll() { return NetworkDeviceRepository.findAll(); }
+    public List<NetworkDevice> findAll() { return networkDeviceRepository.findAll(); }
 
-    public Optional<NetworkDevice> findById(UUID id) { return NetworkDeviceRepository.findById(id); }
+    public Optional<NetworkDevice> findById(UUID id) { return networkDeviceRepository.findById(id); }
 
     public String update(UUID id, NetworkDevice incoming) {
-        Optional<NetworkDevice> found = NetworkDeviceRepository.findById(id);
+        Optional<NetworkDevice> found = networkDeviceRepository.findById(id);
         if (found.isEmpty()) return "The network device with that id does not exist";
         NetworkDevice existing = found.get();      
         existing.setHostname(incoming.getHostname());   
         existing.setIpAddress(incoming.getIpAddress());
         existing.setModel(incoming.getModel());
         existing.setSerialNumber(incoming.getSerialNumber());      
-        NetworkDeviceRepository.save(existing);
+        networkDeviceRepository.save(existing);
         return "Network device updated successfully";
     }
 
     public String delete(UUID id) {
-        if (!NetworkDeviceRepository.existsById(id)) return "The network device with that id does not exist";
-        NetworkDeviceRepository.deleteById(id);
+        if (!networkDeviceRepository.existsById(id)) return "The network device with that id does not exist";
+        networkDeviceRepository.deleteById(id);
         return "Network device deleted successfully";
     }
+
+    // NetworkDeviceService — B1
+    public List<NetworkDevice> findByModel(String model) {
+        return networkDeviceRepository.findByModelIgnoreCaseOrderByHostnameAsc(model);
+    }
+
+    // NetworkDeviceService — C4
+    public List<NetworkDevice> findByEngineer(UUID engineerId) {
+        return networkDeviceRepository.findByEngineer(engineerId);
+    }
+
 }

@@ -13,6 +13,7 @@ public interface SiteRepository extends JpaRepository<Site, UUID> {
     
     Optional<Site> findBySiteNumber(int siteNumber);
    
+   // C2 (JPQL)
     @Query("SELECT s FROM Site s WHERE NOT EXISTS " +
            "(SELECT e FROM NetworkEngineer e WHERE e.site = s) ORDER BY s.siteNumber")
     List<Site> findFreeSites();
