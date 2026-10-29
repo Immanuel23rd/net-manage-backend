@@ -1,0 +1,39 @@
+$kind: http-example
+name: network-devices/by-model?model=cisco catalyst
+request:
+  url: http://localhost:8081/api/network-devices/by-model?model=cisco catalyst
+  method: GET
+  queryParams:
+    model: cisco catalyst
+  body:
+    type: json
+    content: ""
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Content-Length: "303"
+    Date: Thu, 29 Oct 2026 15:09:19 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "hostname": "core-sw-01",
+          "id": "f7ca8850-0dd0-4423-a02c-70f5fdd1bff7",
+          "ipAddress": "10.0.0.1",
+          "model": "Cisco Catalyst",
+          "serialNumber": "CAT9K-2024-0101"
+        },
+        {
+          "hostname": "dist-sw-02",
+          "id": "28479c06-7dc7-4263-a878-45041e3322e1",
+          "ipAddress": "10.0.0.2",
+          "model": "Cisco Catalyst",
+          "serialNumber": "CAT9K-2024-0102"
+        }
+      ]
+order: 1000

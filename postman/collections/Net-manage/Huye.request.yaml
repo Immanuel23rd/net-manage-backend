@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:8081/api/sites/save
+method: POST
+body:
+  type: json
+  content: '{"siteNumber":2,"name":"Huye Campus"}'
+examples: ./.resources/Huye.resources/examples
+order: 6000

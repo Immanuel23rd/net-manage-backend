@@ -1,0 +1,18 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/network-engineers/save
+  method: POST
+  body:
+    type: json
+    content: "{\"firstName\":\"Aline\",\"lastName\":\"Uwase\",\"email\":\"aline@netmanage.rw\",\r
+
+      \ \"site\":{\"id\":\"93d60897-8094-4c9d-9eb3-753480bf22cd\"},\r
+
+      \ \"certifications\":[{\"id\":\"94488e56-9e45-46e3-952a-c6a3bae5a4e7\"},{\"id\":\"68617d19-0c99-4da8-aa6d-8b6a1365fde0\"}]}"
+response:
+  statusCode: 200
+  statusText: OK
+  body:
+    type: text
+    content: ""
+order: 1000

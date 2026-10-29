@@ -1,0 +1,24 @@
+$kind: http-example
+name: certifications/unused
+request:
+  url: http://localhost:8081/api/certifications/unused
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Content-Length: "73"
+    Date: Thu, 29 Oct 2026 21:08:13 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "id": "238b0a4d-3e1b-438d-9369-e3985570bf8c",
+          "name": "CompTIA Network+"
+        }
+      ]
+order: 1000

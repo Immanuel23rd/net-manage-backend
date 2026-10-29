@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/api/network-devices/save
+method: POST
+body:
+  type: json
+  content: "\r
+
+    {\"hostname\":\"fw-01\",\"model\":\"FortiGate 60F\",\"serialNumber\":\"FGT60F-2024-0931\",\"ipAddress\":\"10.0.0.3\"}\r\n"
+examples: ./.resources/fw-01.resources/examples
+order: 11000

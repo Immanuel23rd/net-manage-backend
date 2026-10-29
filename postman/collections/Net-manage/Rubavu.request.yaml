@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:8081/api/sites/save
+method: POST
+body:
+  type: json
+  content: '{"siteNumber":4,"name":"Rubavu Branch"}'
+examples: ./.resources/Rubavu.resources/examples
+order: 8000

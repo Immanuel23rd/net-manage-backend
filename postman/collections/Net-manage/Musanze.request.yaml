@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:8081/api/sites/save
+method: POST
+body:
+  type: json
+  content: '{"siteNumber":3,"name":"Musanze Branch"}'
+examples: ./.resources/Musanze.resources/examples
+order: 7000

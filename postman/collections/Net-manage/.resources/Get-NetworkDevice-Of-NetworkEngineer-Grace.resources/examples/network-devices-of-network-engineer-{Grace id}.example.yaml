@@ -1,0 +1,34 @@
+$kind: http-example
+name: network-devices/of-network-engineer/{Grace id}
+request:
+  url: http://localhost:8081/api/network-devices/of-network-engineer/9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Date: Thu, 29 Oct 2026 21:31:27 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "hostname": "rtr-01",
+          "id": "126dfc3c-254f-414a-93bf-827e2c44171d",
+          "ipAddress": "10.0.0.4",
+          "model": "Cisco ISR",
+          "serialNumber": "ISR4331-2024-0407"
+        },
+        {
+          "hostname": "core-sw-01",
+          "id": "f7ca8850-0dd0-4423-a02c-70f5fdd1bff7",
+          "ipAddress": "10.0.0.1",
+          "model": "Cisco Catalyst",
+          "serialNumber": "CAT9K-2024-0101"
+        }
+      ]
+order: 1000

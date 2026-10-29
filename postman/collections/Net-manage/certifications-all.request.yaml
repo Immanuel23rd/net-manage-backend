@@ -1,0 +1,6 @@
+$kind: http-request
+name: certifications/all
+url: http://localhost:8081/api/certifications/all
+method: GET
+examples: ./.resources/certifications-all.resources/examples
+order: 27000

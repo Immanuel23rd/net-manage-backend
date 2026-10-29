@@ -1,0 +1,75 @@
+$kind: http-example
+name: network-engineers/all
+request:
+  url: http://localhost:8081/api/network-engineers/all
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Content-Length: "920"
+    Date: Thu, 29 Oct 2026 10:05:52 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "certifications": [
+            {
+              "id": "94488e56-9e45-46e3-952a-c6a3bae5a4e7",
+              "name": "CCNA"
+            },
+            {
+              "id": "68617d19-0c99-4da8-aa6d-8b6a1365fde0",
+              "name": "CCNP"
+            }
+          ],
+          "email": "aline@netmanage.rw",
+          "firstName": "Aline",
+          "id": "4c418842-85b9-4c28-90fa-87ad671d1609",
+          "lastName": "Uwase",
+          "site": {
+            "id": "93d60897-8094-4c9d-9eb3-753480bf22cd",
+            "name": "Kigali HQ",
+            "siteNumber": 1
+          }
+        },
+        {
+          "certifications": [
+            {
+              "id": "02ea62c0-8efe-41f0-b450-a789bbfdde71",
+              "name": "Fortinet NSE"
+            }
+          ],
+          "email": "jean@netmanage.rw",
+          "firstName": "Jean",
+          "id": "a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f",
+          "lastName": "Habimana",
+          "site": {
+            "id": "ab20149a-6330-488c-b425-b4968c652fa1",
+            "name": "Huye Campus",
+            "siteNumber": 2
+          }
+        },
+        {
+          "certifications": [
+            {
+              "id": "94488e56-9e45-46e3-952a-c6a3bae5a4e7",
+              "name": "CCNA"
+            }
+          ],
+          "email": "grace@netmanage.rw",
+          "firstName": "Grace",
+          "id": "9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac",
+          "lastName": "Mukamana",
+          "site": {
+            "id": "4dde72fa-d6ee-4ed4-a22b-139f816db713",
+            "name": "Musanze Branch",
+            "siteNumber": 3
+          }
+        }
+      ]
+order: 1000

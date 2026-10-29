@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-tickets/save
+method: POST
+body:
+  type: json
+  content: "{\"scheduledDate\":\"2026-10-12\",\"status\":\"RESOLVED\",\r
+
+    \ \"networkDevice\":{\"id\":\"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}"
+examples: ./.resources/Resolved-Aline-core-sw-01.resources/examples
+order: 18000

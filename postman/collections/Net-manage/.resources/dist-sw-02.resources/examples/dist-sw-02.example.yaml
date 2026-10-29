@@ -1,0 +1,14 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/network-devices/save
+  method: POST
+  body:
+    type: json
+    content: '{"hostname":"dist-sw-02","model":"Cisco Catalyst","serialNumber":"CAT9K-2024-0102","ipAddress":"10.0.0.2"}'
+response:
+  statusCode: 200
+  statusText: OK
+  body:
+    type: text
+    content: ""
+order: 1000

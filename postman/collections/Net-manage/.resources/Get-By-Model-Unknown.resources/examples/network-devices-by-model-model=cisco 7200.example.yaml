@@ -1,0 +1,23 @@
+$kind: http-example
+name: network-devices/by-model?model=cisco 7200
+request:
+  url: http://localhost:8081/api/network-devices/by-model?model=cisco 7200
+  method: GET
+  queryParams:
+    model: cisco 7200
+  body:
+    type: json
+    content: ""
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Content-Length: "2"
+    Date: Thu, 29 Oct 2026 20:54:50 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: "[]"
+order: 1000

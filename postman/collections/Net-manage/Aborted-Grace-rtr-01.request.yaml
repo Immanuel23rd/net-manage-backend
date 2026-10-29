@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-tickets/save
+method: POST
+body:
+  type: json
+  content: "{\"scheduledDate\":\"2026-11-24\",\"status\":\"ABORTED\",\r
+
+    \ \"networkDevice\":{\"id\":\"126dfc3c-254f-414a-93bf-827e2c44171d\"},\"networkEngineer\":{\"id\":\"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\"}}"
+examples: ./.resources/Aborted-Grace-rtr-01.resources/examples
+order: 26000

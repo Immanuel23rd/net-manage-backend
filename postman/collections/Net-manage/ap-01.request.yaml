@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:8081/api/network-devices/save
+method: POST
+body:
+  type: json
+  content: '{"hostname":"ap-01","model":"Aruba AP-515","serialNumber":"ARU515-2024-0550","ipAddress":"10.0.0.5"}'
+examples: ./.resources/ap-01.resources/examples
+order: 13000

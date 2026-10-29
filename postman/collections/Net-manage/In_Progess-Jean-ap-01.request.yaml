@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-tickets/save
+method: POST
+body:
+  type: json
+  content: "{\"scheduledDate\":\"2026-11-10\",\"status\":\"IN_PROGRESS\",\r
+
+    \ \"networkDevice\":{\"id\":\"e54490fd-3b52-4906-bbe7-8889c9322032\"},\"networkEngineer\":{\"id\":\"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\"}}"
+examples: ./.resources/In_Progess-Jean-ap-01.resources/examples
+order: 24000

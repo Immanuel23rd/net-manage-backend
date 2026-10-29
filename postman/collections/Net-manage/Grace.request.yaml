@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:8081/api/network-engineers/save
+method: POST
+body:
+  type: json
+  content: "{\"firstName\":\"Grace\",\"lastName\":\"Mukamana\",\"email\":\"grace@netmanage.rw\",\r
+
+    \ \"site\":{\"id\":\"4dde72fa-d6ee-4ed4-a22b-139f816db713\"},\r
+
+    \ \"certifications\":[{\"id\":\"94488e56-9e45-46e3-952a-c6a3bae5a4e7\"}]}"
+examples: ./.resources/Grace.resources/examples
+order: 16000

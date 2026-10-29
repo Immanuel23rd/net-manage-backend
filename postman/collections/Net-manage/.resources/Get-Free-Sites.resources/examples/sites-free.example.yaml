@@ -1,0 +1,25 @@
+$kind: http-example
+name: sites/free
+request:
+  url: http://localhost:8081/api/sites/free
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Content-Length: "85"
+    Date: Thu, 29 Oct 2026 21:06:46 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "id": "816d7b26-8920-4fee-a715-26a079147f8c",
+          "name": "Rubavu Branch",
+          "siteNumber": 4
+        }
+      ]
+order: 1000

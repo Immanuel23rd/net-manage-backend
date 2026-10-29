@@ -1,0 +1,55 @@
+$kind: http-example
+name: network-devices/all
+request:
+  url: http://localhost:8081/api/network-devices/all
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Content-Length: "738"
+    Date: Thu, 29 Oct 2026 10:05:13 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "hostname": "core-sw-01",
+          "id": "f7ca8850-0dd0-4423-a02c-70f5fdd1bff7",
+          "ipAddress": "10.0.0.1",
+          "model": "Cisco Catalyst",
+          "serialNumber": "CAT9K-2024-0101"
+        },
+        {
+          "hostname": "dist-sw-02",
+          "id": "28479c06-7dc7-4263-a878-45041e3322e1",
+          "ipAddress": "10.0.0.2",
+          "model": "Cisco Catalyst",
+          "serialNumber": "CAT9K-2024-0102"
+        },
+        {
+          "hostname": "fw-01",
+          "id": "ac9113fb-18a3-4e38-ad80-8744130f8d42",
+          "ipAddress": "10.0.0.3",
+          "model": "FortiGate 60F",
+          "serialNumber": "FGT60F-2024-0931"
+        },
+        {
+          "hostname": "rtr-01",
+          "id": "126dfc3c-254f-414a-93bf-827e2c44171d",
+          "ipAddress": "10.0.0.4",
+          "model": "Cisco ISR",
+          "serialNumber": "ISR4331-2024-0407"
+        },
+        {
+          "hostname": "ap-01",
+          "id": "e54490fd-3b52-4906-bbe7-8889c9322032",
+          "ipAddress": "10.0.0.5",
+          "model": "Aruba AP-515",
+          "serialNumber": "ARU515-2024-0550"
+        }
+      ]
+order: 1000

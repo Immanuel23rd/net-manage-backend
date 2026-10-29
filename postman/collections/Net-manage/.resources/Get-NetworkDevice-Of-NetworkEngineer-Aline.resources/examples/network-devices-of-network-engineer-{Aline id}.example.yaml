@@ -1,0 +1,41 @@
+$kind: http-example
+name: network-devices/of-network-engineer/{Aline id}
+request:
+  url: http://localhost:8081/api/network-devices/of-network-engineer/4c418842-85b9-4c28-90fa-87ad671d1609
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Date: Thu, 29 Oct 2026 21:25:59 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "hostname": "dist-sw-02",
+          "id": "28479c06-7dc7-4263-a878-45041e3322e1",
+          "ipAddress": "10.0.0.2",
+          "model": "Cisco Catalyst",
+          "serialNumber": "CAT9K-2024-0102"
+        },
+        {
+          "hostname": "fw-01",
+          "id": "ac9113fb-18a3-4e38-ad80-8744130f8d42",
+          "ipAddress": "10.0.0.3",
+          "model": "FortiGate 60F",
+          "serialNumber": "FGT60F-2024-0931"
+        },
+        {
+          "hostname": "core-sw-01",
+          "id": "f7ca8850-0dd0-4423-a02c-70f5fdd1bff7",
+          "ipAddress": "10.0.0.1",
+          "model": "Cisco Catalyst",
+          "serialNumber": "CAT9K-2024-0101"
+        }
+      ]
+order: 1000

@@ -1,0 +1,149 @@
+$kind: http-example
+name: maintenance-tickets/by-status?status=OPENED
+request:
+  url: http://localhost:8081/api/maintenance-tickets/by-status?status=OPENED
+  method: GET
+  queryParams:
+    status: OPENED
+  body:
+    type: text
+    content: ""
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Content-Length: "2360"
+    Date: Thu, 29 Oct 2026 20:56:51 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "id": "5d04b6a5-7185-46fb-b549-5908db245912",
+          "issue": null,
+          "networkDevice": {
+            "hostname": "fw-01",
+            "id": "ac9113fb-18a3-4e38-ad80-8744130f8d42",
+            "ipAddress": "10.0.0.3",
+            "model": "FortiGate 60F",
+            "serialNumber": "FGT60F-2024-0931"
+          },
+          "networkEngineer": {
+            "certifications": [
+              {
+                "id": "02ea62c0-8efe-41f0-b450-a789bbfdde71",
+                "name": "Fortinet NSE"
+              }
+            ],
+            "email": "jean@netmanage.rw",
+            "firstName": "Jean",
+            "id": "a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f",
+            "lastName": "Habimana",
+            "site": {
+              "id": "ab20149a-6330-488c-b425-b4968c652fa1",
+              "name": "Huye Campus",
+              "siteNumber": 2
+            }
+          },
+          "scheduledDate": "2026-10-28",
+          "status": "OPENED"
+        },
+        {
+          "id": "cdb6bcba-0ec1-4618-878c-98498d90acad",
+          "issue": null,
+          "networkDevice": {
+            "hostname": "rtr-01",
+            "id": "126dfc3c-254f-414a-93bf-827e2c44171d",
+            "ipAddress": "10.0.0.4",
+            "model": "Cisco ISR",
+            "serialNumber": "ISR4331-2024-0407"
+          },
+          "networkEngineer": {
+            "certifications": [
+              {
+                "id": "94488e56-9e45-46e3-952a-c6a3bae5a4e7",
+                "name": "CCNA"
+              }
+            ],
+            "email": "grace@netmanage.rw",
+            "firstName": "Grace",
+            "id": "9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac",
+            "lastName": "Mukamana",
+            "site": {
+              "id": "4dde72fa-d6ee-4ed4-a22b-139f816db713",
+              "name": "Musanze Branch",
+              "siteNumber": 3
+            }
+          },
+          "scheduledDate": "2026-10-30",
+          "status": "OPENED"
+        },
+        {
+          "id": "7426afb9-ab00-4f67-b223-5c2e9a6d3b75",
+          "issue": null,
+          "networkDevice": {
+            "hostname": "core-sw-01",
+            "id": "f7ca8850-0dd0-4423-a02c-70f5fdd1bff7",
+            "ipAddress": "10.0.0.1",
+            "model": "Cisco Catalyst",
+            "serialNumber": "CAT9K-2024-0101"
+          },
+          "networkEngineer": {
+            "certifications": [
+              {
+                "id": "94488e56-9e45-46e3-952a-c6a3bae5a4e7",
+                "name": "CCNA"
+              }
+            ],
+            "email": "grace@netmanage.rw",
+            "firstName": "Grace",
+            "id": "9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac",
+            "lastName": "Mukamana",
+            "site": {
+              "id": "4dde72fa-d6ee-4ed4-a22b-139f816db713",
+              "name": "Musanze Branch",
+              "siteNumber": 3
+            }
+          },
+          "scheduledDate": "2026-11-03",
+          "status": "OPENED"
+        },
+        {
+          "id": "85270c02-5ceb-4672-be9e-785a2c3da339",
+          "issue": null,
+          "networkDevice": {
+            "hostname": "dist-sw-02",
+            "id": "28479c06-7dc7-4263-a878-45041e3322e1",
+            "ipAddress": "10.0.0.2",
+            "model": "Cisco Catalyst",
+            "serialNumber": "CAT9K-2024-0102"
+          },
+          "networkEngineer": {
+            "certifications": [
+              {
+                "id": "94488e56-9e45-46e3-952a-c6a3bae5a4e7",
+                "name": "CCNA"
+              },
+              {
+                "id": "68617d19-0c99-4da8-aa6d-8b6a1365fde0",
+                "name": "CCNP"
+              }
+            ],
+            "email": "aline@netmanage.rw",
+            "firstName": "Aline",
+            "id": "4c418842-85b9-4c28-90fa-87ad671d1609",
+            "lastName": "Uwase",
+            "site": {
+              "id": "93d60897-8094-4c9d-9eb3-753480bf22cd",
+              "name": "Kigali HQ",
+              "siteNumber": 1
+            }
+          },
+          "scheduledDate": "2026-11-17",
+          "status": "OPENED"
+        }
+      ]
+order: 1000

@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-tickets/save
+method: POST
+body:
+  type: json
+  content: "{\"scheduledDate\":\"2026-10-28\",\"status\":\"OPENED\",\r
+
+    \ \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f\"}}"
+examples: ./.resources/Opened-Jean-fw-01.resources/examples
+order: 21000

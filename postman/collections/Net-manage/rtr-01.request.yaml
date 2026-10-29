@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/api/network-devices/save
+method: POST
+body:
+  type: json
+  content: "\r
+
+    {\"hostname\":\"rtr-01\",\"model\":\"Cisco ISR\",\"serialNumber\":\"ISR4331-2024-0407\",\"ipAddress\":\"10.0.0.4\"}\r\n"
+examples: ./.resources/rtr-01.resources/examples
+order: 12000

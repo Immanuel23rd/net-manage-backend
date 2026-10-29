@@ -1,0 +1,36 @@
+$kind: http-example
+name: certifications/all
+request:
+  url: http://localhost:8081/api/certifications/all
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Content-Length: "261"
+    Date: Thu, 29 Oct 2026 10:03:44 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "id": "94488e56-9e45-46e3-952a-c6a3bae5a4e7",
+          "name": "CCNA"
+        },
+        {
+          "id": "68617d19-0c99-4da8-aa6d-8b6a1365fde0",
+          "name": "CCNP"
+        },
+        {
+          "id": "02ea62c0-8efe-41f0-b450-a789bbfdde71",
+          "name": "Fortinet NSE"
+        },
+        {
+          "id": "238b0a4d-3e1b-438d-9369-e3985570bf8c",
+          "name": "CompTIA Network+"
+        }
+      ]
+order: 1000
