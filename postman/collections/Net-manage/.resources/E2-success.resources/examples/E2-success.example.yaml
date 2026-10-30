@@ -1,0 +1,56 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/maintenance-logs/network-device/FGT60F-2024-0931
+  method: GET
+response:
+  statusCode: 200
+  statusText: ""
+  headers:
+    Content-Type: application/json
+    Content-Length: "779"
+    Date: Fri, 30 Oct 2026 16:42:27 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "action": "Firmware upgrade",
+          "id": "c1740785-6ede-4c11-b700-4bdbf7a2f2eb",
+          "loggedDate": "2026-10-30",
+          "maintenanceTicket": {
+            "id": "36a446c5-8bb8-4a9c-95a5-6edd227a2c6a",
+            "issue": null,
+            "networkDevice": {
+              "hostname": "fw-01",
+              "id": "ac9113fb-18a3-4e38-ad80-8744130f8d42",
+              "ipAddress": "10.0.0.3",
+              "model": "FortiGate 60F",
+              "serialNumber": "FGT60F-2024-0931"
+            },
+            "networkEngineer": {
+              "certifications": [
+                {
+                  "id": "02ea62c0-8efe-41f0-b450-a789bbfdde71",
+                  "name": "Fortinet NSE"
+                }
+              ],
+              "email": "jean@netmanage.rw",
+              "firstName": "Jean",
+              "id": "a61c1b8d-3e42-49de-9ee7-de6f2ba55f6f",
+              "lastName": "Habimana",
+              "site": {
+                "id": "ab20149a-6330-488c-b425-b4968c652fa1",
+                "name": "Huye Campus",
+                "siteNumber": 2
+              }
+            },
+            "scheduledDate": "2026-10-05",
+            "status": "RESOLVED"
+          },
+          "minutesSpent": 45,
+          "notes": "Upgraded to the latest stable release and rebooted"
+        }
+      ]
+order: 1000

@@ -71,13 +71,14 @@ public class MaintenanceTicketController {
         return ResponseEntity.ok(msg);
     }
 
-    @DeleteMapping("/delete/{id}")
-    public ResponseEntity<String> delete(@PathVariable UUID id) {
-        String msg = maintenanceTicketService.delete(id);
-        if (msg.equals("The maintenance ticket with that id does not exist"))
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(msg);
-        return ResponseEntity.ok(msg);
-    }
+    // A2
+    //@DeleteMapping("/delete/{id}")
+    //public ResponseEntity<String> delete(@PathVariable UUID id) {
+    //    String msg = maintenanceTicketService.delete(id);
+    //    if (msg.equals("The maintenance ticket with that id does not exist"))
+    //        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(msg);
+    //    return ResponseEntity.ok(msg);
+    //}
 
 
     // B2
@@ -105,4 +106,16 @@ public class MaintenanceTicketController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(msg);            // 400
         return ResponseEntity.ok(msg);                                                 // 200
     }
+
+    // E3
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<String> delete(@PathVariable UUID id) {
+        String msg = maintenanceTicketService.delete(id);
+
+        if (msg.equals("The maintenance ticket with that id does not exist"))
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(msg);              // 404
+        if (msg.equals("That maintenance ticket has maintenance logs, delete them first"))
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(msg);               // 409
+        return ResponseEntity.ok(msg);                                                 // 200
+}
 }

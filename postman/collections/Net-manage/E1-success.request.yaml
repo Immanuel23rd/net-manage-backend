@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-logs/save?maintenanceTicketId=36a446c5-8bb8-4a9c-95a5-6edd227a2c6a
+method: POST
+queryParams:
+  maintenanceTicketId: 36a446c5-8bb8-4a9c-95a5-6edd227a2c6a
+body:
+  type: json
+  content: '{"action":"Firmware upgrade","notes":"Upgraded to the latest stable release and rebooted","minutesSpent":45}'
+examples: .resources/E1-success.resources/examples
+order: 59000

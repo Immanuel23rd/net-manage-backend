@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.net_manage.domain.MaintenanceTicket;
 import com.example.net_manage.domain.TicketStatus;
+import com.example.net_manage.repository.MaintenanceLogRepository;
 import com.example.net_manage.repository.MaintenanceTicketRepository;
 
 
@@ -18,6 +19,8 @@ import com.example.net_manage.repository.MaintenanceTicketRepository;
 public class MaintenanceTicketService {
     @Autowired 
     private MaintenanceTicketRepository maintenanceTicketRepository;
+    @Autowired 
+    private MaintenanceLogRepository maintenanceLogRepository;
 
     public MaintenanceTicketService(MaintenanceTicketRepository MaintenanceTicketRepository) {
         this.maintenanceTicketRepository = MaintenanceTicketRepository;
@@ -45,11 +48,12 @@ public class MaintenanceTicketService {
         return "Maintenance ticket updated successfully";
     }
 
-    public String delete(UUID id) {
-        if (!maintenanceTicketRepository.existsById(id)) return "The maintenance ticket with that id does not exist";
-        maintenanceTicketRepository.deleteById(id);
-        return "Maintenance ticket deleted successfully";
-    }
+    // A2
+    //public String delete(UUID id) {
+    //    if (!maintenanceTicketRepository.existsById(id)) return "The maintenance ticket with that id does not exist";
+    //    maintenanceTicketRepository.deleteById(id);
+    //    return "Maintenance ticket deleted successfully";
+    //}
 
     // B2
     public List<MaintenanceTicket> findByStatus(TicketStatus status) {
@@ -113,6 +117,23 @@ public class MaintenanceTicketService {
         ticket.setStatus(newStatus);
         maintenanceTicketRepository.save(ticket);
         return "Maintenance ticket status updated successfully";
+    }
+
+    // E3
+    @Transactional
+    public String delete(UUID id) {
+        Optional<MaintenanceTicket> found = maintenanceTicketRepository.findById(id);
+        if (found.isEmpty()) {
+            return "The maintenance ticket with that id does not exist";
+        }
+
+
+        if (maintenanceLogRepository.existsByMaintenanceTicket(found.get())) {
+            return "That maintenance ticket has maintenance logs, delete them first";
+        }
+
+        maintenanceTicketRepository.deleteById(id);
+        return "Maintenance ticket deleted successfully";
     }
 
 }

@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-logs/save?maintenanceTicketId=7426afb9-ab00-4f67-b223-5c2e9a6d3bde
+method: POST
+queryParams:
+  maintenanceTicketId: 7426afb9-ab00-4f67-b223-5c2e9a6d3bde
+body:
+  type: json
+  content: '{"action":"Firmware upgrade","notes":"Upgraded to the latest stable release and rebooted","minutesSpent":45}'
+examples: .resources/E1-error-404.resources/examples
+order: 61000

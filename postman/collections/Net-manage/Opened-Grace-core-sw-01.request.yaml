@@ -6,5 +6,5 @@ body:
   content: "{\"scheduledDate\":\"2026-11-03\",\"status\":\"OPENED\",\r
 
     \ \"networkDevice\":{\"id\":\"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\"},\"networkEngineer\":{\"id\":\"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\"}}"
-examples: ./.resources/Opened-Grace-core-sw-01.resources/examples
+examples: .resources/Opened-Grace-core-sw-01.resources/examples
 order: 23000

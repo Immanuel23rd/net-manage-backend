@@ -26,12 +26,13 @@ import com.example.net_manage.service.NetworkEngineerService;
 @RequestMapping("/api/network-devices")
 public class NetworkDeviceController {
     @Autowired 
-    private NetworkDeviceService networkDeviceService;
+    private  NetworkDeviceService networkDeviceService;
     @Autowired
-    private NetworkEngineerService networkEngineerService;
+    private   NetworkEngineerService networkEngineerService;
 
-    public NetworkDeviceController(NetworkDeviceService NetworkDeviceService) {
+    public NetworkDeviceController(NetworkDeviceService NetworkDeviceService, NetworkEngineerService NetworkEngineerService) {
         this.networkDeviceService = NetworkDeviceService;
+        this.networkEngineerService = NetworkEngineerService;
     }
 
     @PostMapping("/save")
@@ -66,13 +67,13 @@ public class NetworkDeviceController {
         return ResponseEntity.ok(msg);
     }
 
-    // NetworkDeviceController — B1
+    // B1
     @GetMapping("/by-model")
     public List<NetworkDevice> byModel(@RequestParam String model) {
         return networkDeviceService.findByModel(model);
     }
 
-    // NetworkDeviceController — C4
+    // C4
    @GetMapping("/of-network-engineer/{networkEngineerId}")
    public ResponseEntity<Object> ofEngineer(@PathVariable UUID networkEngineerId) {
     // Check the engineer first: an unknown id must give 404, not an empty list.

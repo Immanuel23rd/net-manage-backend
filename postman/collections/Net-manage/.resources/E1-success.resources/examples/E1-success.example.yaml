@@ -1,0 +1,22 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/maintenance-logs/save?maintenanceTicketId=36a446c5-8bb8-4a9c-95a5-6edd227a2c6a
+  method: POST
+  queryParams:
+    maintenanceTicketId: 36a446c5-8bb8-4a9c-95a5-6edd227a2c6a
+  body:
+    type: json
+    content: '{"action":"Firmware upgrade","notes":"Upgraded to the latest stable release and rebooted","minutesSpent":45}'
+response:
+  statusCode: 201
+  statusText: ""
+  headers:
+    Content-Type: text/plain;charset=UTF-8
+    Content-Length: "34"
+    Date: Fri, 30 Oct 2026 16:35:15 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: text
+    content: Maintenance log saved successfully
+order: 1000
