@@ -1,0 +1,11 @@
+$kind: http-request
+name: A2-maintenance-tickets/all
+url: http://localhost:8081/api/maintenance-tickets/all
+method: GET
+body:
+  type: json
+  content: "{\"scheduledDate\":\"2026-10-20\",\"status\":\"ABORTED\",\"issue\":\"Power supply fault\",\r
+
+    \ \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}"
+examples: .resources/A2-maintenance-tickets-all.resources/examples
+order: 31000

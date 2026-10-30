@@ -136,4 +136,20 @@ public class MaintenanceTicketService {
         return "Maintenance ticket deleted successfully";
     }
 
+    // F1
+    @Transactional(readOnly = true)
+    public List<Object[]> countPerStatus() {
+ 
+        return maintenanceTicketRepository.countPerStatus();
+    }
+
+    // F2
+    @Transactional   
+    public String cancelDay(UUID networkEngineerId, LocalDate date) {
+
+        int changed = maintenanceTicketRepository.cancelDay(networkEngineerId, date);
+
+        return changed + " maintenance tickets cancelled";
+    }
+
 }

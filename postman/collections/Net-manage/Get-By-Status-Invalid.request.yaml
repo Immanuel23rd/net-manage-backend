@@ -1,7 +1,0 @@
-$kind: http-request
-url: http://localhost:8081/api/maintenance-tickets/by-status?status=xyz
-method: GET
-queryParams:
-  status: xyz
-examples: ./.resources/Get-By-Status-Invalid.resources/examples
-order: 35000

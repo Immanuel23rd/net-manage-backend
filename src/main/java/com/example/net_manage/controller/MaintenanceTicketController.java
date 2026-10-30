@@ -117,5 +117,20 @@ public class MaintenanceTicketController {
         if (msg.equals("That maintenance ticket has maintenance logs, delete them first"))
             return ResponseEntity.status(HttpStatus.CONFLICT).body(msg);               // 409
         return ResponseEntity.ok(msg);                                                 // 200
-}
+    }
+
+
+    // F1
+    @GetMapping("/stats/by-status")
+    public List<Object[]> statsByStatus() {
+        return maintenanceTicketService.countPerStatus();
+    }
+
+    // F2
+    @PatchMapping("/cancel-day")
+    public ResponseEntity<String> cancelDay(@RequestParam UUID networkEngineerId,
+                                        @RequestParam String date) {
+        return ResponseEntity.ok(
+                maintenanceTicketService.cancelDay(networkEngineerId, LocalDate.parse(date)));
+    }
 }

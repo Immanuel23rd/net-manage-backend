@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8081/api/network-engineers/by-certification?name=ccna
+method: GET
+queryParams:
+  name: ccna
+examples: .resources/C1-success.resources/examples
+order: 37000

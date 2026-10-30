@@ -1,0 +1,6 @@
+$kind: http-request
+name: A2-certifications/all
+url: http://localhost:8081/api/certifications/all
+method: GET
+examples: .resources/A2-certifications-all.resources/examples
+order: 27000

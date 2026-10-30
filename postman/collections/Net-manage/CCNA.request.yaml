@@ -4,5 +4,5 @@ method: POST
 body:
   type: json
   content: '{"name":"CCNA"}'
-examples: ./.resources/CCNA.resources/examples
+examples: .resources/CCNA.resources/examples
 order: 1000

@@ -1,6 +1,0 @@
-$kind: http-request
-name: network-devices/all
-url: http://localhost:8081/api/network-devices/all
-method: GET
-examples: ./.resources/network-devices-all.resources/examples
-order: 29000

@@ -4,5 +4,5 @@ method: POST
 body:
   type: json
   content: ' {"name":"CCNP"}'
-examples: ./.resources/CCNP.resources/examples
+examples: .resources/CCNP.resources/examples
 order: 2000

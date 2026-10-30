@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-tickets/by-status?status=xyz
+method: GET
+queryParams:
+  status: xyz
+examples: .resources/B2-error-400.resources/examples
+order: 35000

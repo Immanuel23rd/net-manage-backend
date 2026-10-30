@@ -4,5 +4,5 @@ method: POST
 body:
   type: json
   content: '{"name":"Fortinet NSE"}'
-examples: ./.resources/Fortinet NSE.resources/examples
+examples: .resources/Fortinet NSE.resources/examples
 order: 3000

@@ -20,14 +20,14 @@ public interface MaintenanceTicketRepository extends JpaRepository<MaintenanceTi
     // B3 (DERIVED)
     List<MaintenanceTicket> findByScheduledDateBetweenOrderByScheduledDateAsc(LocalDate start, LocalDate end);
 
-    //D1 (DERIVED)
+    // D1 (DERIVED)
     boolean existsByNetworkEngineerIdAndScheduledDateAndStatusNot(
             UUID engineerId, LocalDate date, TicketStatus status);
-
+    // F1
     @Query("SELECT t.status, COUNT(t) FROM MaintenanceTicket t GROUP BY t.status")
     List<Object[]> countPerStatus();
 
-   
+    // F2
     @Modifying
     @Query("UPDATE MaintenanceTicket t SET t.status = com.example.net_manage.domain.TicketStatus.ABORTED " +
            "WHERE t.networkEngineer.id = :engineerId AND t.scheduledDate = :date " +

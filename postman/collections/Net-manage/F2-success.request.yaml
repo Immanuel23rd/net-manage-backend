@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-tickets/cancel-day?networkEngineerId=4c418842-85b9-4c28-90fa-87ad671d1609&date=2026-10-20
+method: PATCH
+queryParams:
+  networkEngineerId: 4c418842-85b9-4c28-90fa-87ad671d1609
+  date: 2026-10-20
+examples: .resources/F2-success.resources/examples
+order: 68000

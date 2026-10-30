@@ -1,0 +1,6 @@
+$kind: http-request
+description: ""
+url: http://localhost:8081/api/sites/26cb469e-10bd-4535-a4f6-ef607d2cf4ec
+method: GET
+examples: .resources/A2-GetById-error-404.resources/examples
+order: 73000

@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://localhost:8081/api/sites/delete/26cb469e-10bd-4535-a4f6-ef607d2cf4cf
+method: DELETE
+examples: .resources/A2-DeleteById-error-404.resources/examples
+order: 75000

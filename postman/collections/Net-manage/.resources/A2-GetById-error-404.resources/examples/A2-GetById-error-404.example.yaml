@@ -1,0 +1,17 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/sites/26cb469e-10bd-4535-a4f6-ef607d2cf4ec
+  method: GET
+response:
+  statusCode: 404
+  statusText: ""
+  headers:
+    Content-Type: text/plain;charset=UTF-8
+    Content-Length: "36"
+    Date: Fri, 30 Oct 2026 18:23:01 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: text
+    content: The site with that id does not exist
+order: 1000

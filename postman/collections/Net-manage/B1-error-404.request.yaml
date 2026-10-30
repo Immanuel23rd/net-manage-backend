@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/api/network-devices/by-model?model=cisco 7200
+method: GET
+queryParams:
+  model: cisco 7200
+body:
+  type: json
+  content: ""
+examples: .resources/B1-error-404.resources/examples
+order: 33000

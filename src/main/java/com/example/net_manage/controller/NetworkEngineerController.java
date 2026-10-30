@@ -37,9 +37,11 @@ public class NetworkEngineerController {
         return ResponseEntity.status(HttpStatus.CREATED).body(networkEngineerService.save(c)); // 201
     }
 
+    
     @GetMapping("/all")
     public List<NetworkEngineer> all() { return networkEngineerService.findAll(); }
 
+    
     @GetMapping("/{id}")
     public ResponseEntity<Object> byId(@PathVariable UUID id) {
         Optional<NetworkEngineer> found = networkEngineerService.findById(id);
@@ -48,6 +50,7 @@ public class NetworkEngineerController {
         return ResponseEntity.ok(found.get());
     }
 
+    
     @PutMapping("/update/{id}")
     public ResponseEntity<String> update(@PathVariable UUID id, @RequestBody NetworkEngineer c) {
         String msg = networkEngineerService.update(id, c);
@@ -56,6 +59,7 @@ public class NetworkEngineerController {
         return ResponseEntity.ok(msg);
     }
 
+    // A2
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<String> delete(@PathVariable UUID id) {
         String msg = networkEngineerService.delete(id);
