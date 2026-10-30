@@ -72,7 +72,7 @@ public class NetworkDeviceController {
         return networkDeviceService.findByModel(model);
     }
 
-    // NetworkDeviceController — C4 (needs BOTH services injected with @Autowired)
+    // NetworkDeviceController — C4
    @GetMapping("/of-network-engineer/{networkEngineerId}")
    public ResponseEntity<Object> ofEngineer(@PathVariable UUID networkEngineerId) {
     // Check the engineer first: an unknown id must give 404, not an empty list.

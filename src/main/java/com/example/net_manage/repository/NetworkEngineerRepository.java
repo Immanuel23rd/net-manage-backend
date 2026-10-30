@@ -18,6 +18,6 @@ public interface NetworkEngineerRepository extends JpaRepository<NetworkEngineer
            "WHERE LOWER(c.name) = LOWER(:name)")
     List<NetworkEngineer> findByCertificationName(@Param("name") String name);
 
-  
+    // D4 (DERIVED): is this site already occupied?
     boolean existsBySite(Site site);
 }

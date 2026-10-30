@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -67,6 +68,32 @@ public class NetworkEngineerController {
     @GetMapping("/by-certification")
     public List<NetworkEngineer> byCertification(@RequestParam String name) {
         return networkEngineerService.findByCertification(name);
+    }
+
+    // D3
+    @PutMapping("/{networkEngineerId}/certifications/{certificationId}")
+    public ResponseEntity<String> addCertification(@PathVariable UUID networkEngineerId,
+                                               @PathVariable UUID certificationId) {
+        String msg = networkEngineerService.addCertification(networkEngineerId, certificationId);
+
+        if (msg.endsWith("does not exist"))
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(msg);              // 404
+        if (msg.equals("The network engineer already has that certification"))
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(msg);               // 409
+        return ResponseEntity.ok(msg);                                                 // 200
+    }
+
+    // D4
+    @PatchMapping("/{networkEngineerId}/site")
+    public ResponseEntity<String> changeSite(@PathVariable UUID networkEngineerId,
+                                         @RequestParam int siteNumber) {
+        String msg = networkEngineerService.changeSite(networkEngineerId, siteNumber);
+
+        if (msg.endsWith("does not exist"))
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(msg);              // 404 
+        if (msg.equals("That site is taken by another network engineer"))
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(msg);               // 409
+        return ResponseEntity.ok(msg);                                                 // 200
     }
 
 }

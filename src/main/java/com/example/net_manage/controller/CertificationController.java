@@ -31,7 +31,7 @@ public class CertificationController {
 
     @PostMapping("/save")
     public ResponseEntity<String> save(@RequestBody Certification c) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(certificationService.save(c)); // 201
+        return ResponseEntity.status(HttpStatus.CREATED).body(certificationService.save(c));
     }
 
     @GetMapping("/all")
@@ -61,7 +61,7 @@ public class CertificationController {
         return ResponseEntity.ok(msg);
     }
 
-    // CertificationController — C3
+    // C3
     @GetMapping("/unused")
     public List<Certification> unused() { return certificationService.findUnused(); }
 }

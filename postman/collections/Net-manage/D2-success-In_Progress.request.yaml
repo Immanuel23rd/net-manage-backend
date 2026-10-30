@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-tickets/cdb6bcba-0ec1-4618-878c-98498d90acad/status?status=IN_PROGRESS
+method: PATCH
+queryParams:
+  status: IN_PROGRESS
+examples: .resources/D2-success-In_Progress.resources/examples
+order: 52000

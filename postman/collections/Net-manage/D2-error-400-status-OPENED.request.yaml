@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-tickets/36a446c5-8bb8-4a9c-95a5-6edd227a2c6a/status?status=OPENED
+method: PATCH
+queryParams:
+  status: OPENED
+examples: .resources/D2-error-400-status-OPENED.resources/examples
+order: 49000

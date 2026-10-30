@@ -14,12 +14,13 @@ import com.example.net_manage.domain.TicketStatus;
 
 public interface MaintenanceTicketRepository extends JpaRepository<MaintenanceTicket, UUID> {
     
-    // B2 (DERIVED): the enum is the parameter type
+    // B2 (DERIVED)
     List<MaintenanceTicket> findByStatusOrderByScheduledDateAsc(TicketStatus status);
 
-    // B3 (DERIVED): Between is inclusive on both ends
+    // B3 (DERIVED)
     List<MaintenanceTicket> findByScheduledDateBetweenOrderByScheduledDateAsc(LocalDate start, LocalDate end);
 
+    //D1 (DERIVED)
     boolean existsByNetworkEngineerIdAndScheduledDateAndStatusNot(
             UUID engineerId, LocalDate date, TicketStatus status);
 

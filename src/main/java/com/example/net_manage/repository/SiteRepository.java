@@ -11,6 +11,7 @@ import com.example.net_manage.domain.Site;
 
 public interface SiteRepository extends JpaRepository<Site, UUID> {
     
+    // D4: derived lookup by siteNumber
     Optional<Site> findBySiteNumber(int siteNumber);
    
    // C2 (JPQL)

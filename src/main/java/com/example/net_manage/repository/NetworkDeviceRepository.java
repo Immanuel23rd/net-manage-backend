@@ -20,7 +20,7 @@ public interface NetworkDeviceRepository extends JpaRepository<NetworkDevice, UU
     Optional<NetworkDevice> findBySerialNumber(String serialNumber);
 
 
-    // C4 (JPQL):
+    // C4 (JPQL)
     @Query("SELECT DISTINCT t.networkDevice FROM MaintenanceTicket t " +
            "WHERE t.networkEngineer.id = :engineerId")
     List<NetworkDevice> findByEngineer(@Param("engineerId") UUID engineerId); 

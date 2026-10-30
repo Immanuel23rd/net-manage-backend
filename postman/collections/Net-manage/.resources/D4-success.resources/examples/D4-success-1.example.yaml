@@ -1,0 +1,28 @@
+$kind: http-example
+name: D4-success
+request:
+  url: http://localhost:8081/api/sites/free
+  method: GET
+  body:
+    type: json
+    content: ""
+response:
+  statusCode: 200
+  statusText: ""
+  headers:
+    Content-Type: application/json
+    Content-Length: "86"
+    Date: Fri, 30 Oct 2026 14:11:20 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "id": "4dde72fa-d6ee-4ed4-a22b-139f816db713",
+          "name": "Musanze Branch",
+          "siteNumber": 3
+        }
+      ]
+order: 2000

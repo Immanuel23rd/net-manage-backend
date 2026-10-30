@@ -1,0 +1,13 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/maintenance-tickets/8be123ce-9601-480f-866b-f68360953d81/status?status=RESOLVED
+  method: PATCH
+  queryParams:
+    status: RESOLVED
+response:
+  statusCode: 200
+  statusText: ""
+  body:
+    type: text
+    content: ""
+order: 1000

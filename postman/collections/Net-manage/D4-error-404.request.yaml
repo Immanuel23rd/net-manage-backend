@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8081/api/network-engineers/4c418842-85b9-4c28-90fa-87ad671d1609/site?siteNumber=99
+method: PATCH
+queryParams:
+  siteNumber: "99"
+examples: .resources/D4-error-404.resources/examples
+order: 58000

@@ -1,0 +1,19 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/maintenance-tickets/8be123ce-9601-480f-866b-f68360953dec/status?status=RESOLVED
+  method: PATCH
+  queryParams:
+    status: RESOLVED
+response:
+  statusCode: 404
+  statusText: ""
+  headers:
+    Content-Type: text/plain;charset=UTF-8
+    Content-Length: "50"
+    Date: Fri, 30 Oct 2026 13:38:55 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: text
+    content: The maintenance ticket with that id does not exist
+order: 1000

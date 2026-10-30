@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -32,9 +33,23 @@ public class MaintenanceTicketController {
         this.maintenanceTicketService = MaintenanceTicketService;
     }
 
+    //A2
+    //@PostMapping("/save")
+    //public ResponseEntity<String> save(@RequestBody MaintenanceTicket c) {
+    //    return ResponseEntity.status(HttpStatus.CREATED).body(maintenanceTicketService.save(c)); // 201
+    //}
+
+    // D1
     @PostMapping("/save")
-    public ResponseEntity<String> save(@RequestBody MaintenanceTicket c) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(maintenanceTicketService.save(c)); // 201
+    public ResponseEntity<String> save(@RequestBody MaintenanceTicket ticket) {
+        String msg = maintenanceTicketService.save(ticket);
+
+    
+        if (msg.equals("Maintenance ticket date cannot be in the past"))
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(msg);            // 400
+        if (msg.equals("Engineer already has a ticket scheduled on that date"))
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(msg);               // 409
+        return ResponseEntity.status(HttpStatus.CREATED).body(msg);                    // 201
     }
 
     @GetMapping("/all")
@@ -65,16 +80,29 @@ public class MaintenanceTicketController {
     }
 
 
-    // MaintenanceTicketController — B2
+    // B2
    @GetMapping("/by-status")
    public List<MaintenanceTicket> byStatus(@RequestParam TicketStatus status) {
         return maintenanceTicketService.findByStatus(status);
     }
 
    
-     // MaintenanceTicketController — B3
+     // B3
     @GetMapping("/between")
     public List<MaintenanceTicket> between(@RequestParam String start, @RequestParam String end) {
         return maintenanceTicketService.findBetween(LocalDate.parse(start), LocalDate.parse(end));
+    }
+
+    // D2
+    @PatchMapping("/{id}/status")
+    public ResponseEntity<String> changeStatus(@PathVariable UUID id,
+                                           @RequestParam TicketStatus status) {
+        String msg = maintenanceTicketService.changeStatus(id, status);
+
+        if (msg.equals("The maintenance ticket with that id does not exist"))
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(msg);              // 404
+        if (msg.startsWith("Cannot change status"))
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(msg);            // 400
+        return ResponseEntity.ok(msg);                                                 // 200
     }
 }

@@ -45,7 +45,7 @@ public class SiteService {
         return "Site deleted successfully";
     }
 
-    // SiteService — C2
+    // C2
     public List<Site> findFreeSites() { return siteRepository.findFreeSites(); }
 
 }

@@ -44,6 +44,6 @@ public class CertificationService {
         return "Certification deleted successfully";
     }
 
-    // CertificationService — C3
+    // C3
     public List<Certification> findUnused() { return certificationRepository.findUnused(); }
 }

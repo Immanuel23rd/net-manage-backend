@@ -49,12 +49,12 @@ public class NetworkDeviceService {
         return "Network device deleted successfully";
     }
 
-    // NetworkDeviceService — B1
+    // B1
     public List<NetworkDevice> findByModel(String model) {
         return networkDeviceRepository.findByModelIgnoreCaseOrderByHostnameAsc(model);
     }
 
-    // NetworkDeviceService — C4
+    // C4
     public List<NetworkDevice> findByEngineer(UUID engineerId) {
         return networkDeviceRepository.findByEngineer(engineerId);
     }

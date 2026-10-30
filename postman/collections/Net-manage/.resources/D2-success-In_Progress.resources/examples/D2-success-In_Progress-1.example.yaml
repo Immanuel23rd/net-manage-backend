@@ -1,0 +1,48 @@
+$kind: http-example
+name: D2-success-In_Progress
+request:
+  url: http://localhost:8081/api/maintenance-tickets/cdb6bcba-0ec1-4618-878c-98498d90acad
+  method: GET
+response:
+  statusCode: 200
+  statusText: ""
+  headers:
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Date: Fri, 30 Oct 2026 13:57:48 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      {
+        "id": "cdb6bcba-0ec1-4618-878c-98498d90acad",
+        "issue": null,
+        "networkDevice": {
+          "hostname": "rtr-01",
+          "id": "126dfc3c-254f-414a-93bf-827e2c44171d",
+          "ipAddress": "10.0.0.4",
+          "model": "Cisco ISR",
+          "serialNumber": "ISR4331-2024-0407"
+        },
+        "networkEngineer": {
+          "certifications": [
+            {
+              "id": "94488e56-9e45-46e3-952a-c6a3bae5a4e7",
+              "name": "CCNA"
+            }
+          ],
+          "email": "grace@netmanage.rw",
+          "firstName": "Grace",
+          "id": "9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac",
+          "lastName": "Mukamana",
+          "site": {
+            "id": "4dde72fa-d6ee-4ed4-a22b-139f816db713",
+            "name": "Musanze Branch",
+            "siteNumber": 3
+          }
+        },
+        "scheduledDate": "2026-10-30",
+        "status": "IN_PROGRESS"
+      }
+order: 2000

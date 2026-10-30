@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-tickets/8be123ce-9601-480f-866b-f68360953dec/status?status=RESOLVED
+method: PATCH
+queryParams:
+  status: RESOLVED
+examples: .resources/D2-error-404.resources/examples
+order: 51000

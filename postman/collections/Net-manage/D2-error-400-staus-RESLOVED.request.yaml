@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-tickets/5d04b6a5-7185-46fb-b549-5908db245912/status?status=RESOLVED
+method: PATCH
+queryParams:
+  status: RESOLVED
+body:
+  type: json
+  content: ""
+examples: .resources/D2-error-400-staus-RESLOVED.resources/examples
+order: 48000
