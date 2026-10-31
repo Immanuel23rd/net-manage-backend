@@ -6,3 +6,11 @@ workspace:
 cloudResources:
   collections:
     ../postman/collections/Net-manage: 58382667-50f3ab80-204a-4e5f-a56c-994946adeb01
+  environments:
+    ../postman/environments/New Environment.environment.yaml: 58382667-32b48368-9007-4e4b-9362-0d26c5ff5965
+  globals:
+    ../postman/globals/workspace.globals.yaml: 14a23477-63d2-4cd8-88ff-211b25380ffd
+
+localResources:
+  collections:
+    - ../net-manage-midterm.postman_collection.json
