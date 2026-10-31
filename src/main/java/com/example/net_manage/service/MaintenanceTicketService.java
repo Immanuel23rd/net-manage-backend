@@ -6,6 +6,8 @@ import java.util.Optional;
 import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -33,6 +35,8 @@ public class MaintenanceTicketService {
     //}
 
     public List<MaintenanceTicket> findAll() { return maintenanceTicketRepository.findAll(); }
+
+    public Page<MaintenanceTicket> findAll(Pageable pageable) { return maintenanceTicketRepository.findAll(pageable);}
 
     public Optional<MaintenanceTicket> findById(UUID id) { return maintenanceTicketRepository.findById(id); }
 

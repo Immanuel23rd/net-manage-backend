@@ -22,7 +22,7 @@ public interface MaintenanceTicketRepository extends JpaRepository<MaintenanceTi
 
     // D1 (DERIVED)
     boolean existsByNetworkEngineerIdAndScheduledDateAndStatusNot(
-            UUID engineerId, LocalDate date, TicketStatus status);
+            UUID engineerId, LocalDate date, TicketStatus status);       
     // F1
     @Query("SELECT t.status, COUNT(t) FROM MaintenanceTicket t GROUP BY t.status")
     List<Object[]> countPerStatus();
@@ -33,4 +33,8 @@ public interface MaintenanceTicketRepository extends JpaRepository<MaintenanceTi
            "WHERE t.networkEngineer.id = :engineerId AND t.scheduledDate = :date " +
            "AND t.status <> com.example.net_manage.domain.TicketStatus.RESOLVED")
     int cancelDay(@Param("engineerId") UUID engineerId, @Param("date") LocalDate date);
-    }
+
+    // Bonus dashboard
+    long countByStatus(TicketStatus status);
+    long countByScheduledDate(LocalDate date);
+}
