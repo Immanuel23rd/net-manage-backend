@@ -1,0 +1,21 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/maintenance-tickets/save
+  method: POST
+  body:
+    type: json
+    content: "{\"scheduledDate\":\"2026-10-20\",\"status\":\"OPENED\",\"issue\":\"Power supply fault\",\r
+
+      \ \"networkDevice\":{\"id\":\"ac9113fb-18a3-4e38-ad80-8744130f8d42\"},\"networkEngineer\":{\"id\":\"4c418842-85b9-4c28-90fa-87ad671d1609\"}}"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: text/plain;charset=UTF-8
+    Content-Length: "45"
+    Date: Fri, 30 Oct 2026 13:01:11 GMT
+    Connection: close
+  body:
+    type: text
+    content: Maintenance ticket date cannot be in the past
+order: 1000

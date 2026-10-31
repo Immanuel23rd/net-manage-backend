@@ -1,5 +1,0 @@
-$kind: http-request
-url: http://localhost:8081/api/network-engineers/9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac/certifications/238b0a4d-3e1b-438d-9369-e3985570bf8c
-method: PUT
-examples: .resources/D3-error-409.resources/examples
-order: 54000

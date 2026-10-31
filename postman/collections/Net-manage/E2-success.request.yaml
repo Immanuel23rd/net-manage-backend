@@ -1,5 +1,0 @@
-$kind: http-request
-url: http://localhost:8081/api/maintenance-logs/network-device/FGT60F-2024-0931
-method: GET
-examples: .resources/E2-success.resources/examples
-order: 62000

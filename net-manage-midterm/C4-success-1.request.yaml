@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://localhost:8081/api/network-devices/of-network-engineer/4c418842-85b9-4c28-90fa-87ad671d1609
+method: GET
+examples: ./.resources/C4-success-1.resources/examples
+order: 22000

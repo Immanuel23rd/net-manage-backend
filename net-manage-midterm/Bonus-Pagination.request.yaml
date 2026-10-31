@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-tickets/page?page=1&size=6&sort=scheduledDate,desc
+method: GET
+queryParams:
+  page: "1"
+  size: "6"
+  sort: scheduledDate,desc
+examples: ./.resources/Bonus-Pagination.resources/examples
+order: 52000

@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://localhost:8081/api/maintenance-logs/delete/c1740785-6ede-4c11-b700-4bdbf7a2f2eb
+method: DELETE
+examples: ./.resources/E3-succes.resources/examples
+order: 47000

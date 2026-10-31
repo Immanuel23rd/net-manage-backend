@@ -1,0 +1,22 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/maintenance-tickets/save
+  method: POST
+  body:
+    type: json
+    content: "{\"scheduledDate\":\"2026-11-03\",\"status\":\"OPENED\",\r
+
+      \ \"networkDevice\":{\"id\":\"f7ca8850-0dd0-4423-a02c-70f5fdd1bff7\"},\"networkEngineer\":{\"id\":\"9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac\"}}"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: text/plain;charset=UTF-8
+    Content-Length: "37"
+    Date: Fri, 30 Oct 2026 16:51:33 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: text
+    content: Maintenance ticket saved successfully
+order: 2000

@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/api/network-engineers/9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac/site?siteNumber=4
+method: PATCH
+queryParams:
+  siteNumber: "4"
+body:
+  type: json
+  content: ""
+examples: ./.resources/D4-success.resources/examples
+order: 38000

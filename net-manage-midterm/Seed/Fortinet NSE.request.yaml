@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:8081/api/certifications/save
+method: POST
+body:
+  type: json
+  content: '{"name":"Fortinet NSE"}'
+examples: ./.resources/Fortinet NSE.resources/examples
+order: 3000

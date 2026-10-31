@@ -1,5 +1,0 @@
-$kind: http-request
-url: http://localhost:8081/api/maintenance-tickets/stats/by-status
-method: GET
-examples: .resources/F1-success.resources/examples
-order: 67000

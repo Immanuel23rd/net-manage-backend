@@ -1,0 +1,19 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/network-engineers/4c418842-85b9-4c28-90fa-87ad671d1609/site?siteNumber=99
+  method: PATCH
+  queryParams:
+    siteNumber: "99"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: text/plain;charset=UTF-8
+    Content-Length: "44"
+    Date: Fri, 30 Oct 2026 14:16:00 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: text
+    content: The site with that siteNumber does not exist
+order: 1000

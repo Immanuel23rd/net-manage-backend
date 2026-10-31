@@ -1,5 +1,0 @@
-$kind: http-request
-url: http://localhost:8081/api/dashboard/summary
-method: GET
-examples: .resources/Bonus-Dashboard-Summary.resources/examples
-order: 78000

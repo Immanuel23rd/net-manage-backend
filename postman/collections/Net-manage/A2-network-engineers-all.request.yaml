@@ -1,6 +1,0 @@
-$kind: http-request
-name: A2-network-engineers/all
-url: http://localhost:8081/api/network-engineers/all
-method: GET
-examples: .resources/A2-network-engineers-all.resources/examples
-order: 30000

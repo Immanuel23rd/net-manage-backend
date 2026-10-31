@@ -1,0 +1,153 @@
+$kind: http-example
+name: Bonus-Pagination
+request:
+  url: http://localhost:8081/api/maintenance-tickets/page?page=1&size=3&sort=scheduledDate,Asc
+  method: GET
+  queryParams:
+    page: "1"
+    size: "3"
+    sort: scheduledDate,Asc
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Content-Length: "2245"
+    Date: Fri, 30 Oct 2026 19:32:57 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      {
+        "content": [
+          {
+            "id": "b918918e-fe2b-4040-ad03-3608845cfcb3",
+            "issue": null,
+            "networkDevice": {
+              "hostname": "fw-01",
+              "id": "ac9113fb-18a3-4e38-ad80-8744130f8d42",
+              "ipAddress": "10.0.0.3",
+              "model": "FortiGate 60F",
+              "serialNumber": "FGT60F-2024-0931"
+            },
+            "networkEngineer": {
+              "certifications": [
+                {
+                  "id": "94488e56-9e45-46e3-952a-c6a3bae5a4e7",
+                  "name": "CCNA"
+                },
+                {
+                  "id": "68617d19-0c99-4da8-aa6d-8b6a1365fde0",
+                  "name": "CCNP"
+                }
+              ],
+              "email": "aline@netmanage.rw",
+              "firstName": "Aline",
+              "id": "4c418842-85b9-4c28-90fa-87ad671d1609",
+              "lastName": "Uwase",
+              "site": {
+                "id": "93d60897-8094-4c9d-9eb3-753480bf22cd",
+                "name": "Kigali HQ",
+                "siteNumber": 1
+              }
+            },
+            "scheduledDate": "2026-10-20",
+            "status": "ABORTED"
+          },
+          {
+            "id": "cdb6bcba-0ec1-4618-878c-98498d90acad",
+            "issue": null,
+            "networkDevice": {
+              "hostname": "rtr-01",
+              "id": "126dfc3c-254f-414a-93bf-827e2c44171d",
+              "ipAddress": "10.0.0.4",
+              "model": "Cisco ISR",
+              "serialNumber": "ISR4331-2024-0407"
+            },
+            "networkEngineer": {
+              "certifications": [
+                {
+                  "id": "94488e56-9e45-46e3-952a-c6a3bae5a4e7",
+                  "name": "CCNA"
+                },
+                {
+                  "id": "238b0a4d-3e1b-438d-9369-e3985570bf8c",
+                  "name": "CompTIA Network+"
+                }
+              ],
+              "email": "grace@netmanage.rw",
+              "firstName": "Grace",
+              "id": "9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac",
+              "lastName": "Mukamana",
+              "site": {
+                "id": "4dde72fa-d6ee-4ed4-a22b-139f816db713",
+                "name": "Musanze Branch",
+                "siteNumber": 3
+              }
+            },
+            "scheduledDate": "2026-10-30",
+            "status": "IN_PROGRESS"
+          },
+          {
+            "id": "1697aa3d-1388-4797-bcbf-23a54d19b36c",
+            "issue": null,
+            "networkDevice": {
+              "hostname": "core-sw-01",
+              "id": "f7ca8850-0dd0-4423-a02c-70f5fdd1bff7",
+              "ipAddress": "10.0.0.1",
+              "model": "Cisco Catalyst",
+              "serialNumber": "CAT9K-2024-0101"
+            },
+            "networkEngineer": {
+              "certifications": [
+                {
+                  "id": "94488e56-9e45-46e3-952a-c6a3bae5a4e7",
+                  "name": "CCNA"
+                },
+                {
+                  "id": "238b0a4d-3e1b-438d-9369-e3985570bf8c",
+                  "name": "CompTIA Network+"
+                }
+              ],
+              "email": "grace@netmanage.rw",
+              "firstName": "Grace",
+              "id": "9ccd01e4-c8e2-4aa4-a1f4-9921a4a938ac",
+              "lastName": "Mukamana",
+              "site": {
+                "id": "4dde72fa-d6ee-4ed4-a22b-139f816db713",
+                "name": "Musanze Branch",
+                "siteNumber": 3
+              }
+            },
+            "scheduledDate": "2026-11-03",
+            "status": "OPENED"
+          }
+        ],
+        "empty": false,
+        "first": false,
+        "last": false,
+        "number": 1,
+        "numberOfElements": 3,
+        "pageable": {
+          "offset": 3,
+          "pageNumber": 1,
+          "pageSize": 3,
+          "paged": true,
+          "sort": {
+            "empty": false,
+            "sorted": true,
+            "unsorted": false
+          },
+          "unpaged": false
+        },
+        "size": 3,
+        "sort": {
+          "empty": false,
+          "sorted": true,
+          "unsorted": false
+        },
+        "totalElements": 13,
+        "totalPages": 5
+      }
+order: 3000

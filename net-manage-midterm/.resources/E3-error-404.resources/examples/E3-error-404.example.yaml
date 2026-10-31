@@ -1,0 +1,17 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/maintenance-logs/delete/c1740785-6ede-4c11-b700-4bdbf7a2f2eb
+  method: DELETE
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: text/plain;charset=UTF-8
+    Content-Length: "47"
+    Date: Fri, 30 Oct 2026 16:56:44 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: text
+    content: The maintenance log with that id does not exist
+order: 1000

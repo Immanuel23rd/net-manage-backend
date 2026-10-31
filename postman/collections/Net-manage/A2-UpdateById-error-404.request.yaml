@@ -1,8 +1,0 @@
-$kind: http-request
-url: http://localhost:8081/api/sites/update/26cb469e-10bd-4535-a4f6-ef607d2cf4cf
-method: PUT
-body:
-  type: json
-  content: '{"siteNumber":9, "name": "Kivu"}'
-examples: .resources/A2-UpdateById-error-404.resources/examples
-order: 74000

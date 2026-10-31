@@ -1,0 +1,21 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/maintenance-tickets/5d04b6a5-7185-46fb-b549-5908db245912/status?status=RESOLVED
+  method: PATCH
+  queryParams:
+    status: RESOLVED
+  body:
+    type: json
+    content: ""
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: text/plain;charset=UTF-8
+    Content-Length: "44"
+    Date: Fri, 30 Oct 2026 13:31:51 GMT
+    Connection: close
+  body:
+    type: text
+    content: Cannot change status from OPENED to RESOLVED
+order: 1000

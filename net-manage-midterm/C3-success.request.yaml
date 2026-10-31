@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://localhost:8081/api/certifications/unused
+method: GET
+examples: ./.resources/C3-success.resources/examples
+order: 21000

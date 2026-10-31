@@ -1,6 +1,0 @@
-$kind: http-request
-name: A2-sites/all
-url: http://localhost:8081/api/sites/all
-method: GET
-examples: .resources/A2-sites-all.resources/examples
-order: 28000

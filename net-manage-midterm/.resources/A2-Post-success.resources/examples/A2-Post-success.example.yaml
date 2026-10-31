@@ -1,0 +1,20 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/sites/save
+  method: POST
+  body:
+    type: json
+    content: '{"siteNumber":7,"name":"Kivu"}'
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: text/plain;charset=UTF-8
+    Content-Length: "23"
+    Date: Fri, 30 Oct 2026 18:11:49 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: text
+    content: Site saved successfully
+order: 1000

@@ -1,0 +1,6 @@
+$kind: http-request
+name: A2-network-devices/all
+url: http://localhost:8081/api/network-devices/all
+method: GET
+examples: ./.resources/A2-network-devices-all.resources/examples
+order: 11000

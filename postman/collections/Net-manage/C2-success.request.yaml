@@ -1,5 +1,0 @@
-$kind: http-request
-url: http://localhost:8081/api/sites/free
-method: GET
-examples: .resources/C2-success.resources/examples
-order: 38000

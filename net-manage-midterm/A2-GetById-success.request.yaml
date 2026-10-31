@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://localhost:8081/api/sites/26cb469e-10bd-4535-a4f6-ef607d2cf4df
+method: GET
+examples: ./.resources/A2-GetById-success.resources/examples
+order: 3000

@@ -1,11 +1,11 @@
 workspace:
-  id: 7a680ade-fd9c-4ff5-8a7b-9840a515b0ec
+  id: ""
 
 # Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
 
 cloudResources:
   collections:
-    ../postman/collections/Net-manage: 58382667-50f3ab80-204a-4e5f-a56c-994946adeb01
+    ../net-manage-midterm: 58382667-50f3ab80-204a-4e5f-a56c-994946adeb01
   environments:
     ../postman/environments/New Environment.environment.yaml: 58382667-32b48368-9007-4e4b-9362-0d26c5ff5965
   globals:
@@ -13,4 +13,4 @@ cloudResources:
 
 localResources:
   collections:
-    - ../net-manage-midterm.postman_collection.json
+    - ../net-manage-midterm

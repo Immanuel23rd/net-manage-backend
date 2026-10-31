@@ -1,0 +1,35 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/maintenance-tickets/stats/by-status
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Content-Length: "61"
+    Date: Fri, 30 Oct 2026 17:26:27 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        [
+          "IN_PROGRESS",
+          2
+        ],
+        [
+          "ABORTED",
+          2
+        ],
+        [
+          "OPENED",
+          6
+        ],
+        [
+          "RESOLVED",
+          3
+        ]
+      ]
+order: 1000

@@ -1,5 +1,0 @@
-$kind: http-request
-url: http://localhost:8081/api/maintenance-tickets/delete/36a446c5-8bb8-4a9c-95a5-6edd227a2c6a
-method: DELETE
-examples: .resources/E3-error-409.resources/examples
-order: 64000

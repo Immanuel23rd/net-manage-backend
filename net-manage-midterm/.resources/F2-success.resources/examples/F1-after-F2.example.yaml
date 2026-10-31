@@ -1,0 +1,38 @@
+$kind: http-example
+request:
+  url: http://localhost:8081/api/maintenance-tickets/stats/by-status?networkEngineerId=4c418842-85b9-4c28-90fa-87ad671d1609&date=2026-10-20
+  method: GET
+  queryParams:
+    networkEngineerId: 4c418842-85b9-4c28-90fa-87ad671d1609
+    date: 2026-10-20
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+    Content-Length: "61"
+    Date: Fri, 30 Oct 2026 17:36:33 GMT
+    Keep-Alive: timeout=60
+    Connection: keep-alive
+  body:
+    type: json
+    content: |-
+      [
+        [
+          "IN_PROGRESS",
+          1
+        ],
+        [
+          "ABORTED",
+          3
+        ],
+        [
+          "OPENED",
+          6
+        ],
+        [
+          "RESOLVED",
+          3
+        ]
+      ]
+order: 2000

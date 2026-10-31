@@ -1,5 +1,0 @@
-$kind: http-request
-url: http://localhost:8081/api/maintenance-logs/network-device/NOPE
-method: GET
-examples: .resources/E2-empty.resources/examples
-order: 63000
