@@ -28,9 +28,6 @@ public class NetworkEngineerController {
     @Autowired 
     private NetworkEngineerService networkEngineerService;
 
-    public NetworkEngineerController(NetworkEngineerService NetworkEngineerService) {
-        this.networkEngineerService = NetworkEngineerService;
-    }
 
     @PostMapping("/save")
     public ResponseEntity<String> save(@RequestBody NetworkEngineer c) {

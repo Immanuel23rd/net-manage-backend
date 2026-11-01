@@ -30,10 +30,6 @@ public class NetworkDeviceController {
     @Autowired
     private   NetworkEngineerService networkEngineerService;
 
-    public NetworkDeviceController(NetworkDeviceService NetworkDeviceService, NetworkEngineerService NetworkEngineerService) {
-        this.networkDeviceService = NetworkDeviceService;
-        this.networkEngineerService = NetworkEngineerService;
-    }
 
     @PostMapping("/save")
     public ResponseEntity<String> save(@RequestBody NetworkDevice c) {

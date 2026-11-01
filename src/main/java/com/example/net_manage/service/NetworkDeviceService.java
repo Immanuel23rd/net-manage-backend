@@ -18,9 +18,7 @@ public class NetworkDeviceService {
     @Autowired 
     private NetworkDeviceRepository networkDeviceRepository;
 
-    public NetworkDeviceService(NetworkDeviceRepository NetworkDeviceRepository) {
-        this.networkDeviceRepository = NetworkDeviceRepository;
-    }
+
 
     public String save(NetworkDevice c) {
         networkDeviceRepository.save(c);

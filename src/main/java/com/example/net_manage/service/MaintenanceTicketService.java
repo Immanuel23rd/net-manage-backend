@@ -24,9 +24,7 @@ public class MaintenanceTicketService {
     @Autowired 
     private MaintenanceLogRepository maintenanceLogRepository;
 
-    public MaintenanceTicketService(MaintenanceTicketRepository MaintenanceTicketRepository) {
-        this.maintenanceTicketRepository = MaintenanceTicketRepository;
-    }
+
 
     //A2
     //public String save(MaintenanceTicket c) {

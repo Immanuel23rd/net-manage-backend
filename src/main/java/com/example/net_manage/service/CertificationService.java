@@ -16,9 +16,7 @@ public class CertificationService {
     @Autowired 
     private CertificationRepository certificationRepository;
 
-    public CertificationService(CertificationRepository certificationRepository) {
-        this.certificationRepository = certificationRepository;
-    }
+
 
     public String save(Certification c) {
         certificationRepository.save(c);

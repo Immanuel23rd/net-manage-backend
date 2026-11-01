@@ -25,10 +25,6 @@ public class CertificationController {
     @Autowired 
     private CertificationService certificationService;
 
-    public CertificationController(CertificationService certificationService) {
-        this.certificationService = certificationService;
-    }
-
     @PostMapping("/save")
     public ResponseEntity<String> save(@RequestBody Certification c) {
         return ResponseEntity.status(HttpStatus.CREATED).body(certificationService.save(c));

@@ -33,9 +33,6 @@ public class MaintenanceTicketController {
     @Autowired 
     private MaintenanceTicketService maintenanceTicketService;
 
-    public MaintenanceTicketController(MaintenanceTicketService MaintenanceTicketService) {
-        this.maintenanceTicketService = MaintenanceTicketService;
-    }
 
     //A2
     //@PostMapping("/save")

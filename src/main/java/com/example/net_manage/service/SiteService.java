@@ -16,9 +16,7 @@ public class SiteService {
   @Autowired 
     private SiteRepository siteRepository;
 
-    public SiteService(SiteRepository SiteRepository) {
-        this.siteRepository = SiteRepository;
-    }
+
 
     public String save(Site c) {
         siteRepository.save(c);

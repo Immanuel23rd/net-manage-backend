@@ -26,9 +26,7 @@ public class SiteController {
     @Autowired 
     private SiteService siteService;
 
-    public SiteController(SiteService SiteService) {
-        this.siteService = SiteService;
-    }
+
 
     @PostMapping("/save")
     public ResponseEntity<String> save(@RequestBody Site c) {

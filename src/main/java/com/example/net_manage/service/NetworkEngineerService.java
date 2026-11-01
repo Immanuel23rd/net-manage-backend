@@ -26,9 +26,6 @@ public class NetworkEngineerService {
   @Autowired
     private SiteRepository siteRepository;
 
-    public NetworkEngineerService(NetworkEngineerRepository NetworkEngineerRepository) {
-        this.networkEngineerRepository = NetworkEngineerRepository;
-    }
 
     // D3
     @Transactional
