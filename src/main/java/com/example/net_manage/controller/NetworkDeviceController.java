@@ -76,7 +76,7 @@ public class NetworkDeviceController {
     // C4
    @GetMapping("/of-network-engineer/{networkEngineerId}")
    public ResponseEntity<Object> ofEngineer(@PathVariable UUID networkEngineerId) {
-    // Check the engineer first: an unknown id must give 404, not an empty list.
+    // Check the engineer first
        if (networkEngineerService.findById(networkEngineerId).isEmpty())
            return ResponseEntity.status(HttpStatus.NOT_FOUND)
                 .body("The network engineer with that id does not exist");
